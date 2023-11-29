@@ -1,38 +1,116 @@
-tabla1 = driver.find_element(By.XPATH,'/html/body/div[1]/div[4]/div/div[4]/div[2]/div[1]/div/div/table').text
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.by import By
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+from selenium.common.exceptions import NoSuchElementException
+import time  
 
-tabla1
+PATH = "driver/chromedriver.exe"
+driver = webdriver.Chrome()
 
-time.sleep(1)
+# PAGINA PPAL SELECCION datos DE SCRAPEO:
 
-x_path = '/html/body/div[1]/div[4]/div/div[4]/div[2]/ul/li[2]'  
+def descarga(url):
+    
+    '''
+    Descarga de tablas(Excel)
+    '''
 
-driver.find_element(By.XPATH, x_path).click()
+    PATH = "driver/chromedriver.exe"
+    driver = webdriver.Chrome()
 
-time.sleep(3)
+    driver.get(url)
 
-tabla2 = driver.find_element(By.XPATH,'/html/body/div[1]/div[4]/div/div[4]/div[2]/div[2]/div/div/table').text 
+    time.sleep(4)   
 
-tabla2
+    #  SELECCION CAMPOS  
 
-time.sleep(1)
+    x_path = '//*[@id="aceptarCookie"]'    # Aceptar cookies
 
-x_path = '/html/body/div[1]/div[4]/div/div[4]/div[2]/ul/li[3]'  
+    driver.find_element(By.XPATH, x_path).click()
 
-driver.find_element(By.XPATH, x_path).click()
+    time.sleep(1)
 
-time.sleep(3)
+    x_path = '//*[@id="ui-id-1"]/span[2]'   # Bienestar
 
-tabla3 = driver.find_element(By.XPATH,'/html/body/div[1]/div[4]/div/div[4]/div[2]/div[3]/div/div/table').text 
+    driver.find_element(By.XPATH, x_path).click()
 
-tabla3
+    time.sleep(1)
 
-time.sleep(1)
+    x_path = '//*[@id="ui-id-3"]/span[2]'   # Enfermedad
 
-x_path = '/html/body/div[1]/div[4]/div/div[4]/div[2]/ul/li[4]'  
-driver.find_element(By.XPATH, x_path).click()
+    driver.find_element(By.XPATH, x_path).click()
 
-time.sleep(3)
+    time.sleep(1)
 
-tabla4 = driver.find_element(By.XPATH,'/html/body/div[1]/div[4]/div/div[4]/div[2]/div[4]/div/div/table').text 
+    x_path = '//*[@id="ui-id-5"]/span[2]'   # Mortalidad
 
-tabla4
+    driver.find_element(By.XPATH, x_path).click()
+
+    time.sleep(1)
+
+    x_path = '//*[@id="ui-id-7"]/span[2]'   # Determinantes socioeconomicos 
+
+    driver.find_element(By.XPATH, x_path).click()
+
+    time.sleep(1)
+
+    x_path = '//*[@id="ui-id-9"]/span[2]'   # Estilo de vida
+
+    driver.find_element(By.XPATH, x_path).click()
+
+    time.sleep(1)
+
+    x_path = '//*[@id="ui-id-11"]/span[2]'   # Estilo de vida
+
+    driver.find_element(By.XPATH, x_path).click()
+
+    time.sleep(1)
+
+    x_path = '//*[@id="ui-id-26"]'   # despleglable Años
+
+    driver.find_element(By.XPATH, x_path).click()
+
+    time.sleep(1)
+
+    x_path = '//*[@id="year"]/label[28]'   # 2017 
+
+    driver.find_element(By.XPATH, x_path).click()
+
+    time.sleep(1)
+
+    x_path = '//*[@id="year"]/label[29]'   # 2018  //*[@id="year"]/label[29]
+
+    driver.find_element(By.XPATH, x_path).click()
+
+    time.sleep(1)
+
+    x_path = '//*[@id="year"]/label[30]'   # 2019 //*[@id="year"]/label[30]
+
+    driver.find_element(By.XPATH, x_path).click()
+
+    time.sleep(1)
+
+    x_path = '//*[@id="year"]/label[31]'   # 2020 //*[@id="year"]/label[31]
+
+    driver.find_element(By.XPATH, x_path).click()
+
+    time.sleep(1)
+
+    x_path = '//*[@id="year"]/label[32]'   # 2021 //*[@id="year"]/label[32]
+
+    driver.find_element(By.XPATH, x_path).click()
+
+    time.sleep(1)
+
+    x_path = '//*[@id="year"]/label[34]' #
+
+    driver.find_element(By.XPATH, x_path).click()
+
+    time.sleep(1)
+
+    x_path = '//*[@id="selection"]/a[1]'   # Comenzar análisis
+
+    driver.find_element(By.XPATH, x_path).click()
+
+    time.sleep(4)
