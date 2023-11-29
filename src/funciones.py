@@ -10,7 +10,7 @@ driver = webdriver.Chrome()
 
 # PAGINA PPAL SELECCION datos DE SCRAPEO:
 
-def descarga(url):
+def descarga_tablas(url):
     
     '''
     Descarga de tablas(Excel)
@@ -114,3 +114,28 @@ def descarga(url):
     driver.find_element(By.XPATH, x_path).click()
 
     time.sleep(4)
+    
+    excel_names = []
+    
+    i = 1
+    
+    while True:
+        try:
+            # Descargar el archivo Excel
+            download_button = driver.find_element_by_xpath(f'/html/body/div[1]/div[4]/div/div[4]/div[2]/div[{i}]/div/div/div[2]/span[2]')
+            download_button.click()
+
+            # Obtener el nombre del archivo Excel y añadirlo a la lista
+            excel_name = driver.find_element_by_xpath(f'/html/body/div[1]/div[4]/div/div[4]/div[2]/div[{i}]/div/div/table/caption').text
+            excel_names.append(excel_name)
+
+            # Hacer clic en el botón "Siguiente"
+            next_button = driver.find_element_by_xpath(f'/html/body/div[1]/div[4]/div/div[4]/div[2]/ul/li[{i+1}]/a')
+            next_button.click()
+
+        except NoSuchElementException:
+            # Si no se encuentra el botón "Siguiente", salir del bucle
+            break
+
+    # Devolver la lista de nombres de archivos Excel
+    return excel_names
