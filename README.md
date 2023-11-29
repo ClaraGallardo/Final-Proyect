@@ -6,3 +6,4 @@
 4. LIMPIEZA : 
 
 df1 = df1.drop(df1.tail(3).index) # BORRAR LAS TRES ULTIMAS FILAS , OLO TODOS LO TIENEN ¡¡
+dato esta en df.iloc[3:, 1:]
