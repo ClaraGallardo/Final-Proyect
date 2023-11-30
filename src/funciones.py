@@ -5,16 +5,49 @@ from selenium.webdriver.firefox.options import Options
 from selenium.common.exceptions import NoSuchElementException
 import time  
 
-PATH = "driver/chromedriver.exe"
-driver = webdriver.Chrome()
-
-# PAGINA PPAL SELECCION datos DE SCRAPEO:
-
-def descarga_tablas(url):
+def download_tables(url):
     
-    '''
-    Descarga de tablas(Excel)
-    '''
+    """
+    Automates the download of tables (Excel) from the specified website using Selenium.
+
+    Parameters:
+    - url (str, optional): URL of the website containing the tables to download. 
+      input = "https://inclasns.sanidad.gob.es/main.html".
+
+    Returns:
+    - excel_names (list): List of names of the downloaded Excel files.
+    - num_files (int): Number of Excel files downloaded.
+
+    Requires the use of Selenium and ChromeDriver for browser automation.
+
+    Example:
+    ```python
+    excel_names, num_files = download_tables(url)
+    ```
+
+    Note:
+    Make sure you have the following packages installed:
+    - Selenium: pip install selenium
+    - ChromeDriver: Ensure that ChromeDriver is installed and its path is specified in the 'PATH' variable.
+
+    Additional Requirements:
+    - This function is specifically designed for the website "https://inclasns.sanidad.gob.es/main.html".
+    - Make sure the ChromeDriver executable is available in the specified 'PATH' or provide the correct path in the 'PATH' variable.
+
+    Warning:
+    This function may break if the structure of the website changes.
+
+    Returns a list of file names and the total number of downloaded Excel files.
+
+    Usage:
+    ```python
+    excel_names, num_files = download_tables()
+    ```
+
+    Note:
+    The function may not work as expected if the structure of the website changes.
+    """
+
 
     PATH = "driver/chromedriver.exe"
     driver = webdriver.Chrome()
@@ -22,8 +55,6 @@ def descarga_tablas(url):
     driver.get(url)
 
     time.sleep(4)   
-
-    #  SELECCION CAMPOS  
 
     x_path = '//*[@id="aceptarCookie"]'    # Aceptar cookies
 
@@ -115,27 +146,37 @@ def descarga_tablas(url):
 
     time.sleep(4)
     
-    excel_names = []
+    excel_names = [] 
     
     i = 1
     
     while True:
         try:
+            
+            time.sleep(2)
+            
             # Descargar el archivo Excel
-            download_button = driver.find_element_by_xpath(f'/html/body/div[1]/div[4]/div/div[4]/div[2]/div[{i}]/div/div/div[2]/span[2]')
+            download_button = driver.find_element(By.XPATH,f'/html/body/div[1]/div[4]/div/div[4]/div[2]/div[{i}]/div/div/div[2]/span[2]')
             download_button.click()
+            
+            time.sleep(1)
 
             # Obtener el nombre del archivo Excel y añadirlo a la lista
-            excel_name = driver.find_element_by_xpath(f'/html/body/div[1]/div[4]/div/div[4]/div[2]/div[{i}]/div/div/table/caption').text
+            excel_name = driver.find_element(By.XPATH,f'/html/body/div[1]/div[4]/div/div[4]/div[2]/div[{i}]/div/div/table/caption').text
             excel_names.append(excel_name)
+            
+            time.sleep(1)
 
             # Hacer clic en el botón "Siguiente"
-            next_button = driver.find_element_by_xpath(f'/html/body/div[1]/div[4]/div/div[4]/div[2]/ul/li[{i+1}]/a')
+            next_button = driver.find_element(By.XPATH,f'/html/body/div[1]/div[4]/div/div[4]/div[2]/ul/li[{i+1}]/a')
             next_button.click()
+            
+            i+=1
+            
+            time.sleep(2)
 
         except NoSuchElementException:
             # Si no se encuentra el botón "Siguiente", salir del bucle
             break
 
-    # Devolver la lista de nombres de archivos Excel
-    return excel_names
+    return excel_names, len(excel_names)
