@@ -1,0 +1,121 @@
+id,Region,Año,Hombre,Mujer,Total
+1,España (ES),2019,41.7,35.7,38.7
+2,Andalucía (AN),2019,50.1,45.5,47.8
+3,Aragón (AR),2019,36.2,32.3,34.3
+4,"Asturias, Principado de (AS)",2019,36.5,29.8,33.1
+5,"Balears, Illes (IB)",2019,46.0,36.8,41.4
+6,Canarias (CN),2019,45.4,40.1,42.7
+7,Cantabria (CB),2019,34.6,28.0,31.3
+8,Castilla y León (CL),2019,51.4,45.6,48.5
+9,Castilla - La Mancha (CM),2019,42.4,34.7,38.6
+10,Cataluña (CT),2019,39.6,33.1,36.3
+11,Comunitat Valenciana (VC),2019,43.8,36.0,39.9
+12,Extremadura (EX),2019,59.4,47.8,53.7
+13,Galicia (GA),2019,42.6,36.3,39.4
+14,"Madrid, Comunidad de (MD)",2019,27.4,24.4,25.9
+15,"Murcia, Región de (MC)",2019,51.3,43.7,47.5
+16,"Navarra, C. Foral de (NC)",2019,32.1,26.3,29.2
+17,País Vasco (PV),2019,29.8,26.0,27.9
+18,La Rioja (RI),2019,44.2,32.5,38.4
+19,Ceuta (CE),2019,53.2,53.6,53.4
+20,Melilla (ML),2019,45.6,50.1,47.8
+1,España (ES),2017,43.5,38.3,40.9
+2,Andalucía (AN),2017,53.0,48.0,50.5
+3,Aragón (AR),2017,38.6,33.9,36.3
+4,"Asturias, Principado de (AS)",2017,36.6,33.3,34.9
+5,"Balears, Illes (IB)",2017,45.3,38.0,41.7
+6,Canarias (CN),2017,48.0,42.3,45.2
+7,Cantabria (CB),2017,37.4,31.1,34.3
+8,Castilla y León (CL),2017,54.0,46.9,50.5
+9,Castilla - La Mancha (CM),2017,43.9,36.3,40.2
+10,Cataluña (CT),2017,41.8,36.8,39.2
+11,Comunitat Valenciana (VC),2017,45.9,39.4,42.7
+12,Extremadura (EX),2017,59.4,54.3,56.9
+13,Galicia (GA),2017,46.0,39.4,42.7
+14,"Madrid, Comunidad de (MD)",2017,28.3,26.0,27.1
+15,"Murcia, Región de (MC)",2017,50.8,45.8,48.3
+16,"Navarra, C. Foral de (NC)",2017,34.4,29.8,32.1
+17,País Vasco (PV),2017,29.7,27.8,28.8
+18,La Rioja (RI),2017,41.5,35.8,38.6
+19,Ceuta (CE),2017,51.8,55.9,53.8
+20,Melilla (ML),2017,45.8,47.7,46.7
+1,España (ES),2018,42.8,37.0,39.9
+2,Andalucía (AN),2018,51.3,46.6,49.0
+3,Aragón (AR),2018,37.9,32.9,35.5
+4,"Asturias, Principado de (AS)",2018,35.5,31.0,33.2
+5,"Balears, Illes (IB)",2018,46.9,37.9,42.4
+6,Canarias (CN),2018,46.9,42.2,44.6
+7,Cantabria (CB),2018,34.4,28.2,31.3
+8,Castilla y León (CL),2018,52.6,47.3,50.0
+9,Castilla - La Mancha (CM),2018,43.8,35.4,39.7
+10,Cataluña (CT),2018,40.4,34.7,37.6
+11,Comunitat Valenciana (VC),2018,44.7,36.9,40.8
+12,Extremadura (EX),2018,59.3,50.4,55.0
+13,Galicia (GA),2018,44.5,37.8,41.1
+14,"Madrid, Comunidad de (MD)",2018,30.0,25.6,27.7
+15,"Murcia, Región de (MC)",2018,49.1,44.6,46.9
+16,"Navarra, C. Foral de (NC)",2018,34.2,28.3,31.3
+17,País Vasco (PV),2018,29.1,27.4,28.3
+18,La Rioja (RI),2018,41.8,34.7,38.2
+19,Ceuta (CE),2018,54.5,53.8,54.1
+20,Melilla (ML),2018,46.3,49.5,47.8
+1,España (ES),2020,40.2,34.1,37.1
+2,Andalucía (AN),2020,49.8,43.7,46.7
+3,Aragón (AR),2020,35.0,30.0,32.5
+4,"Asturias, Principado de (AS)",2020,33.6,28.6,31.1
+5,"Balears, Illes (IB)",2020,41.8,32.2,37.1
+6,Canarias (CN),2020,43.3,35.7,39.5
+7,Cantabria (CB),2020,35.0,29.7,32.3
+8,Castilla y León (CL),2020,51.3,43.0,47.3
+9,Castilla - La Mancha (CM),2020,41.0,33.7,37.4
+10,Cataluña (CT),2020,38.4,34.0,36.2
+11,Comunitat Valenciana (VC),2020,41.9,33.5,37.7
+12,Extremadura (EX),2020,57.4,47.1,52.3
+13,Galicia (GA),2020,41.3,33.7,37.5
+14,"Madrid, Comunidad de (MD)",2020,25.7,22.5,24.1
+15,"Murcia, Región de (MC)",2020,49.5,42.2,45.9
+16,"Navarra, C. Foral de (NC)",2020,31.8,25.7,28.8
+17,País Vasco (PV),2020,26.3,23.1,24.7
+18,La Rioja (RI),2020,43.5,32.5,38.0
+19,Ceuta (CE),2020,50.0,48.3,49.2
+20,Melilla (ML),2020,39.4,44.5,41.9
+1,España (ES),2022,37.7,31.0,34.4
+2,Andalucía (AN),2022,47.21,40.17,43.67
+3,Aragón (AR),2022,36.18,29.09,32.65
+4,"Asturias, Principado de (AS)",2022,34.46,29.18,31.78
+5,"Balears, Illes (IB)",2022,41.59,35.27,38.45
+6,Canarias (CN),2022,40.16,32.32,36.22
+7,Cantabria (CB),2022,32.42,26.9,29.65
+8,Castilla y León (CL),2022,39.85,30.39,35.17
+9,Castilla - La Mancha (CM),2022,49.34,42.18,45.85
+10,Cataluña (CT),2022,36.27,29.99,33.1
+11,Comunitat Valenciana (VC),2022,43.58,37.88,40.72
+12,Extremadura (EX),2022,54.27,42.2,48.3
+13,Galicia (GA),2022,39.12,31.63,35.33
+14,"Madrid, Comunidad de (MD)",2022,26.07,22.39,24.18
+15,"Murcia, Región de (MC)",2022,50.48,43.42,47.0
+16,"Navarra, C. Foral de (NC)",2022,31.25,24.38,27.83
+17,País Vasco (PV),2022,24.14,20.3,22.2
+18,La Rioja (RI),2022,38.32,28.33,33.32
+19,Ceuta (CE),2022,59.63,48.7,54.52
+20,Melilla (ML),2022,41.67,41.56,41.61
+1,España (ES),2021,39.5,32.7,36.1
+2,Andalucía (AN),2021,48.3,41.3,44.8
+3,Aragón (AR),2021,33.8,27.1,30.5
+4,"Asturias, Principado de (AS)",2021,31.8,29.8,30.7
+5,"Balears, Illes (IB)",2021,38.8,31.7,35.3
+6,Canarias (CN),2021,41.8,33.8,37.8
+7,Cantabria (CB),2021,34.7,28.1,31.4
+8,Castilla y León (CL),2021,41.1,30.6,35.9
+9,Castilla - La Mancha (CM),2021,49.9,41.5,45.8
+10,Cataluña (CT),2021,37.7,31.0,34.3
+11,Comunitat Valenciana (VC),2021,41.4,34.4,37.9
+12,Extremadura (EX),2021,53.9,45.3,49.7
+13,Galicia (GA),2021,40.5,31.8,36.1
+14,"Madrid, Comunidad de (MD)",2021,27.8,22.9,25.3
+15,"Murcia, Región de (MC)",2021,45.1,43.6,44.4
+16,"Navarra, C. Foral de (NC)",2021,24.8,21.5,28.3
+17,País Vasco (PV),2021,32.1,24.4,23.1
+18,La Rioja (RI),2021,40.5,31.3,35.9
+19,Ceuta (CE),2021,48.7,44.6,46.7
+20,Melilla (ML),2021,41.8,41.5,41.6

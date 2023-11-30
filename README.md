@@ -1,6 +1,6 @@
 1. Descarga de datos https://inclasns.sanidad.gob.es/main.html'  🆗
 2. Obtengo excel y muevo de descargas a data 🆗
-3. Estudio excel  y limpieza.
+3. Estudio excel  y limpieza. 🆗
 
 Creaciónd e funciones para limpiar todos los xls de golpe.
 
@@ -20,7 +20,6 @@ if len(subcolumnas) >0:
 else:
 
   print("El dataframe no tiene subcolumnas")
-
 
 - Ojo todo es objeto hay que cambiarlo a numérico
 - Incidencia de tuberculosis por 100 000 hab. no sale bien este tipo de tablas

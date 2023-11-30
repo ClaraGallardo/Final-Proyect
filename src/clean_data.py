@@ -305,7 +305,33 @@ def create_df(df):
                 df_year.columns = ['Region', 'Hombre', 'Mujer', 'Total']
                 df_year['Año'] = year
                 df_new = pd.concat([df_new, df_year], ignore_index=True)
-                
+     
+     
+    # INSERTAR COLUMNA ID CON EL ID CORRESPONDIENTE A CADA COMUNIDAD:
+        
+    comunidades_dict = {'España (ES)': 1, 
+    'Andalucía (AN)': 2,
+    'Aragón (AR)': 3,
+    'Asturias, Principado de (AS)': 4,
+    'Balears, Illes (IB)': 5,
+    'Canarias (CN)': 6,
+    'Cantabria (CB)': 7,
+    'Castilla y León (CL)': 8,
+    'Castilla - La Mancha (CM)': 9,
+    'Cataluña (CT)': 10,
+    'Comunitat Valenciana (VC)': 11,
+    'Extremadura (EX)': 12,
+    'Galicia (GA)': 13,
+    'Madrid, Comunidad de (MD)': 14,
+    'Murcia, Región de (MC)': 15,
+    'Navarra, C. Foral de (NC)': 16,
+    'País Vasco (PV)': 17,
+    'La Rioja (RI)': 18,
+    'Ceuta (CE)': 19,
+    'Melilla (ML)': 20}
+
+    df_new.insert(0, 'id', df_new['Region'].map(comunidades_dict))
+           
     return df_new
 
 def process_excel_files(directory):
