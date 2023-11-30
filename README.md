@@ -26,6 +26,7 @@ else:
 - Incidencia de tuberculosis por 100 000 hab. no sale bien este tipo de tablas
 
 5. CREAR SQL:
+   Automatizar proceso 🤔 , puede que creando un método o clase me haga la estructura de las tablas en SQL y me carge los datos?
 6. DREAMLIT :
 
 - Intertar crear un chat para interactuar con los filtros, ej: dime donde se produjeron el mayor numero de accidentes de tráfico
