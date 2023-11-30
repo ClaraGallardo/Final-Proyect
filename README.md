@@ -27,3 +27,5 @@ else:
 
 5. CREAR SQL:
 6. DREAMLIT :
+
+- Intertar crear un chat para interactuar con los filtros, ej: dime donde se produjeron el mayor numero de accidentes de tráfico

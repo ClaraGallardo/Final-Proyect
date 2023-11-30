@@ -185,7 +185,6 @@ def download_tables(url):
 
     return excel_names, len(excel_names)
 
-
 def move_excel(origen, destino):
     """
     Move Excel files from a source directory to a destination directory.
@@ -233,9 +232,7 @@ def move_excel(origen, destino):
 
     except Exception as e:
         print(f"Error al extraer archivos Excel: {e}")
-        
-
-
+                
 def clean_columns(df):
     
     df_copy = df.copy()
@@ -275,25 +272,6 @@ def clean_columns(df):
     return df_copy
 
 def create_df(df):
-    
-    df_new = pd.DataFrame(columns=['Region', 'Año', 'Hombre', 'Mujer', 'Total'])
-    
-    # dependiendo del df tenemos diferentes años:
-    
-    years = set(col.split('_')[0] for col in df.columns if '_' in col)  # cogemos año 
-    
-    for year in years:
-        
-        if f'{year}_Hombres' in df.columns and f'{year}_Mujeres' in df.columns and f'{year}_Total' in df.columns:
-            
-            df_year = df[['Region', f'{year}_Hombres', f'{year}_Mujeres', f'{year}_Total']].copy()
-            df_year.columns = ['Region', 'Hombre', 'Mujer', 'Total']
-            df_year['Año'] = year
-            df_new = pd.concat([df_new, df_year], ignore_index=True)
-            
-    return df_new
-
-def nuevos_df(df):
     
     # Verifica si alguna de las columnas contiene la palabra 'Hombre' para localizar los df diferentes:
     
@@ -345,7 +323,7 @@ def process_excel_files(directory):
                 
                 # app funciones
                 df = clean_columns(df)
-                df = nuevos_df(df)
+                df = create_df(df)
                 
                 # Optimizar
                 df = df.apply(pd.to_numeric, errors='ignore')
