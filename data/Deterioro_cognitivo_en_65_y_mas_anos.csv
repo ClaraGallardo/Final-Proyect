@@ -1,24 +1,4 @@
 Region,Año,Hombre,Mujer,Total
-España (ES),2017,27.2,34.48,31.3
-Andalucía (AN),2017,30.58,38.96,35.27
-Aragón (AR),2017,27.99,46.78,38.45
-"Asturias, Principado de (AS)",2017,29.24,40.44,35.73
-"Balears, Illes (IB)",2017,16.58,18.57,17.68
-Canarias (CN),2017,25.71,38.77,32.84
-Cantabria (CB),2017,17.25,21.91,19.9
-Castilla y León (CL),2017,36.4,37.65,37.09
-Castilla - La Mancha (CM),2017,29.58,41.15,35.93
-Cataluña (CT),2017,28.51,34.01,31.61
-Comunitat Valenciana (VC),2017,20.49,25.28,23.16
-Extremadura (EX),2017,35.21,39.98,37.87
-Galicia (GA),2017,31.58,33.46,32.65
-"Madrid, Comunidad de (MD)",2017,19.61,29.19,25.15
-"Murcia, Región de (MC)",2017,46.2,49.96,48.3
-"Navarra, C. Foral de (NC)",2017,18.76,46.31,33.99
-País Vasco (PV),2017,20.62,29.0,25.39
-La Rioja (RI),2017,21.2,40.78,32.0
-Ceuta (CE),2017,28.59,20.74,24.25
-Melilla (ML),2017,27.62,18.49,22.52
 España (ES),2020,21.51,30.7,26.66
 Andalucía (AN),2020,17.61,23.36,20.81
 Aragón (AR),2020,27.62,27.86,27.76
@@ -39,3 +19,23 @@ País Vasco (PV),2020,21.31,36.54,29.96
 La Rioja (RI),2020,28.33,32.55,30.65
 Ceuta (CE),2020,15.41,36.47,26.91
 Melilla (ML),2020,14.69,18.03,16.49
+España (ES),2017,27.2,34.48,31.3
+Andalucía (AN),2017,30.58,38.96,35.27
+Aragón (AR),2017,27.99,46.78,38.45
+"Asturias, Principado de (AS)",2017,29.24,40.44,35.73
+"Balears, Illes (IB)",2017,16.58,18.57,17.68
+Canarias (CN),2017,25.71,38.77,32.84
+Cantabria (CB),2017,17.25,21.91,19.9
+Castilla y León (CL),2017,36.4,37.65,37.09
+Castilla - La Mancha (CM),2017,29.58,41.15,35.93
+Cataluña (CT),2017,28.51,34.01,31.61
+Comunitat Valenciana (VC),2017,20.49,25.28,23.16
+Extremadura (EX),2017,35.21,39.98,37.87
+Galicia (GA),2017,31.58,33.46,32.65
+"Madrid, Comunidad de (MD)",2017,19.61,29.19,25.15
+"Murcia, Región de (MC)",2017,46.2,49.96,48.3
+"Navarra, C. Foral de (NC)",2017,18.76,46.31,33.99
+País Vasco (PV),2017,20.62,29.0,25.39
+La Rioja (RI),2017,21.2,40.78,32.0
+Ceuta (CE),2017,28.59,20.74,24.25
+Melilla (ML),2017,27.62,18.49,22.52

@@ -1,24 +1,4 @@
 Region,Año,Hombre,Mujer,Total
-España (ES),2017,1.94,1.17,1.55
-Andalucía (AN),2017,2.65,1.49,2.06
-Aragón (AR),2017,1.73,0.8,1.26
-"Asturias, Principado de (AS)",2017,2.27,3.13,2.72
-"Balears, Illes (IB)",2017,0.57,1.64,1.11
-Canarias (CN),2017,0.62,0.0,0.3
-Cantabria (CB),2017,0.36,0.08,0.21
-Castilla y León (CL),2017,7.37,2.17,4.73
-Castilla - La Mancha (CM),2017,0.57,0.8,0.68
-Cataluña (CT),2017,1.82,1.38,1.59
-Comunitat Valenciana (VC),2017,0.71,0.62,0.66
-Extremadura (EX),2017,2.3,1.37,1.83
-Galicia (GA),2017,1.0,0.22,0.59
-"Madrid, Comunidad de (MD)",2017,1.8,1.07,1.42
-"Murcia, Región de (MC)",2017,0.52,0.47,0.5
-"Navarra, C. Foral de (NC)",2017,3.32,2.78,3.05
-País Vasco (PV),2017,2.15,1.85,1.99
-La Rioja (RI),2017,1.48,0.19,0.82
-Ceuta (CE),2017,0.0,0.0,0.0
-Melilla (ML),2017,0.13,0.33,0.23
 España (ES),2020,1.54,1.02,1.27
 Andalucía (AN),2020,1.07,0.73,0.89
 Aragón (AR),2020,1.52,0.79,1.15
@@ -39,3 +19,23 @@ País Vasco (PV),2020,3.46,1.47,2.42
 La Rioja (RI),2020,0.24,1.28,0.77
 Ceuta (CE),2020,0.0,0.0,0.0
 Melilla (ML),2020,0.0,0.55,0.28
+España (ES),2017,1.94,1.17,1.55
+Andalucía (AN),2017,2.65,1.49,2.06
+Aragón (AR),2017,1.73,0.8,1.26
+"Asturias, Principado de (AS)",2017,2.27,3.13,2.72
+"Balears, Illes (IB)",2017,0.57,1.64,1.11
+Canarias (CN),2017,0.62,0.0,0.3
+Cantabria (CB),2017,0.36,0.08,0.21
+Castilla y León (CL),2017,7.37,2.17,4.73
+Castilla - La Mancha (CM),2017,0.57,0.8,0.68
+Cataluña (CT),2017,1.82,1.38,1.59
+Comunitat Valenciana (VC),2017,0.71,0.62,0.66
+Extremadura (EX),2017,2.3,1.37,1.83
+Galicia (GA),2017,1.0,0.22,0.59
+"Madrid, Comunidad de (MD)",2017,1.8,1.07,1.42
+"Murcia, Región de (MC)",2017,0.52,0.47,0.5
+"Navarra, C. Foral de (NC)",2017,3.32,2.78,3.05
+País Vasco (PV),2017,2.15,1.85,1.99
+La Rioja (RI),2017,1.48,0.19,0.82
+Ceuta (CE),2017,0.0,0.0,0.0
+Melilla (ML),2017,0.13,0.33,0.23

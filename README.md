@@ -23,6 +23,7 @@ else:
 
 
 - Ojo todo es objeto hay que cambiarlo a numérico
+- Incidencia de tuberculosis por 100 000 hab. no sale bien este tipo de tablas
 
 5. CREAR SQL:
 6. DREAMLIT :

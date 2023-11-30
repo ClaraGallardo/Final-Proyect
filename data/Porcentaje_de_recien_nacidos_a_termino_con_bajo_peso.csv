@@ -1,1 +1,101 @@
-Region,Año,Hombre,Mujer,Total
+Region,Año,Total
+España (ES),2020,3.9
+Andalucía (AN),2020,3.95
+Aragón (AR),2020,4.37
+"Asturias, Principado de (AS)",2020,4.23
+"Balears, Illes (IB)",2020,3.62
+Canarias (CN),2020,3.96
+Cantabria (CB),2020,4.02
+Castilla y León (CL),2020,4.9
+Castilla - La Mancha (CM),2020,4.13
+Cataluña (CT),2020,3.71
+Comunitat Valenciana (VC),2020,3.99
+Extremadura (EX),2020,4.09
+Galicia (GA),2020,4.25
+"Madrid, Comunidad de (MD)",2020,4.0
+"Murcia, Región de (MC)",2020,3.54
+"Navarra, C. Foral de (NC)",2020,2.66
+País Vasco (PV),2020,3.04
+La Rioja (RI),2020,4.06
+Ceuta (CE),2020,1.56
+Melilla (ML),2020,3.93
+España (ES),2018,3.96
+Andalucía (AN),2018,4.06
+Aragón (AR),2018,4.28
+"Asturias, Principado de (AS)",2018,4.26
+"Balears, Illes (IB)",2018,3.18
+Canarias (CN),2018,3.87
+Cantabria (CB),2018,3.87
+Castilla y León (CL),2018,4.16
+Castilla - La Mancha (CM),2018,4.71
+Cataluña (CT),2018,4.04
+Comunitat Valenciana (VC),2018,4.09
+Extremadura (EX),2018,3.91
+Galicia (GA),2018,4.29
+"Madrid, Comunidad de (MD)",2018,3.96
+"Murcia, Región de (MC)",2018,4.12
+"Navarra, C. Foral de (NC)",2018,3.27
+País Vasco (PV),2018,2.95
+La Rioja (RI),2018,3.32
+Ceuta (CE),2018,2.42
+Melilla (ML),2018,2.0
+España (ES),2021,3.75
+Andalucía (AN),2021,3.76
+Aragón (AR),2021,4.07
+"Asturias, Principado de (AS)",2021,3.89
+"Balears, Illes (IB)",2021,3.21
+Canarias (CN),2021,4.06
+Cantabria (CB),2021,3.78
+Castilla y León (CL),2021,4.29
+Castilla - La Mancha (CM),2021,3.8
+Cataluña (CT),2021,3.71
+Comunitat Valenciana (VC),2021,3.69
+Extremadura (EX),2021,3.79
+Galicia (GA),2021,3.79
+"Madrid, Comunidad de (MD)",2021,4.0
+"Murcia, Región de (MC)",2021,3.64
+"Navarra, C. Foral de (NC)",2021,3.39
+País Vasco (PV),2021,2.82
+La Rioja (RI),2021,3.36
+Ceuta (CE),2021,3.34
+Melilla (ML),2021,2.42
+España (ES),2017,3.98
+Andalucía (AN),2017,4.08
+Aragón (AR),2017,4.41
+"Asturias, Principado de (AS)",2017,4.32
+"Balears, Illes (IB)",2017,3.47
+Canarias (CN),2017,4.25
+Cantabria (CB),2017,3.78
+Castilla y León (CL),2017,4.7
+Castilla - La Mancha (CM),2017,4.13
+Cataluña (CT),2017,3.9
+Comunitat Valenciana (VC),2017,3.71
+Extremadura (EX),2017,4.35
+Galicia (GA),2017,4.17
+"Madrid, Comunidad de (MD)",2017,4.08
+"Murcia, Región de (MC)",2017,3.89
+"Navarra, C. Foral de (NC)",2017,4.0
+País Vasco (PV),2017,3.11
+La Rioja (RI),2017,3.7
+Ceuta (CE),2017,2.5
+Melilla (ML),2017,2.57
+España (ES),2019,3.85
+Andalucía (AN),2019,3.93
+Aragón (AR),2019,4.71
+"Asturias, Principado de (AS)",2019,3.97
+"Balears, Illes (IB)",2019,3.29
+Canarias (CN),2019,3.62
+Cantabria (CB),2019,3.71
+Castilla y León (CL),2019,4.8
+Castilla - La Mancha (CM),2019,3.93
+Cataluña (CT),2019,3.98
+Comunitat Valenciana (VC),2019,3.92
+Extremadura (EX),2019,3.85
+Galicia (GA),2019,3.76
+"Madrid, Comunidad de (MD)",2019,3.83
+"Murcia, Región de (MC)",2019,3.97
+"Navarra, C. Foral de (NC)",2019,2.93
+País Vasco (PV),2019,2.71
+La Rioja (RI),2019,3.4
+Ceuta (CE),2019,3.27
+Melilla (ML),2019,2.9

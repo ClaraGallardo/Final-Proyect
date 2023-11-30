@@ -160,3 +160,5 @@ cython_debug/
 #.idea/
 
 drive/
+.vscode/
+__init__.py

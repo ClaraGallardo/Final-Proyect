@@ -1,4 +1,40 @@
 Region,Año,Hombre,Mujer,Total
+España (ES),2020,17.26,18.13,17.71
+Andalucía (AN),2020,15.8,17.49,16.66
+Aragón (AR),2020,18.39,19.3,18.85
+"Asturias, Principado de (AS)",2020,18.23,19.13,18.7
+"Balears, Illes (IB)",2020,16.39,16.14,16.27
+Canarias (CN),2020,21.01,21.53,21.28
+Cantabria (CB),2020,19.42,19.71,19.57
+Castilla y León (CL),2020,20.28,21.24,20.77
+Castilla - La Mancha (CM),2020,9.09,9.12,9.1
+Cataluña (CT),2020,18.4,18.75,18.58
+Comunitat Valenciana (VC),2020,20.88,21.31,21.1
+Extremadura (EX),2020,11.88,13.62,12.77
+Galicia (GA),2020,20.56,21.99,21.3
+"Madrid, Comunidad de (MD)",2020,15.16,16.3,15.75
+"Murcia, Región de (MC)",2020,17.3,18.8,18.05
+"Navarra, C. Foral de (NC)",2020,14.75,14.65,14.7
+País Vasco (PV),2020,16.13,16.24,16.18
+La Rioja (RI),2020,17.23,17.52,17.38
+España (ES),2018,16.08,17.34,16.72
+Andalucía (AN),2018,15.73,17.73,16.75
+Aragón (AR),2018,18.61,19.94,19.29
+"Asturias, Principado de (AS)",2018,18.08,19.31,18.72
+"Balears, Illes (IB)",2018,15.88,15.81,15.84
+Canarias (CN),2018,19.85,20.77,20.31
+Cantabria (CB),2018,18.61,18.91,18.76
+Castilla y León (CL),2018,19.59,21.11,20.36
+Castilla - La Mancha (CM),2018,10.08,10.12,10.1
+Cataluña (CT),2018,13.14,14.64,13.9
+Comunitat Valenciana (VC),2018,20.25,20.95,20.61
+Extremadura (EX),2018,10.78,12.54,11.67
+Galicia (GA),2018,19.74,21.64,20.72
+"Madrid, Comunidad de (MD)",2018,14.51,15.62,15.09
+"Murcia, Región de (MC)",2018,16.97,18.58,17.77
+"Navarra, C. Foral de (NC)",2018,15.17,15.23,15.2
+País Vasco (PV),2018,15.65,16.05,15.86
+La Rioja (RI),2018,17.46,18.03,17.75
 España (ES),2021,18.0,18.88,18.45
 Andalucía (AN),2021,19.34,21.19,20.28
 Aragón (AR),2021,18.37,19.13,18.76
@@ -53,39 +89,3 @@ Galicia (GA),2019,20.35,22.01,21.21
 "Navarra, C. Foral de (NC)",2019,14.99,14.9,14.94
 País Vasco (PV),2019,16.78,16.76,16.77
 La Rioja (RI),2019,17.33,17.75,17.54
-España (ES),2020,17.26,18.13,17.71
-Andalucía (AN),2020,15.8,17.49,16.66
-Aragón (AR),2020,18.39,19.3,18.85
-"Asturias, Principado de (AS)",2020,18.23,19.13,18.7
-"Balears, Illes (IB)",2020,16.39,16.14,16.27
-Canarias (CN),2020,21.01,21.53,21.28
-Cantabria (CB),2020,19.42,19.71,19.57
-Castilla y León (CL),2020,20.28,21.24,20.77
-Castilla - La Mancha (CM),2020,9.09,9.12,9.1
-Cataluña (CT),2020,18.4,18.75,18.58
-Comunitat Valenciana (VC),2020,20.88,21.31,21.1
-Extremadura (EX),2020,11.88,13.62,12.77
-Galicia (GA),2020,20.56,21.99,21.3
-"Madrid, Comunidad de (MD)",2020,15.16,16.3,15.75
-"Murcia, Región de (MC)",2020,17.3,18.8,18.05
-"Navarra, C. Foral de (NC)",2020,14.75,14.65,14.7
-País Vasco (PV),2020,16.13,16.24,16.18
-La Rioja (RI),2020,17.23,17.52,17.38
-España (ES),2018,16.08,17.34,16.72
-Andalucía (AN),2018,15.73,17.73,16.75
-Aragón (AR),2018,18.61,19.94,19.29
-"Asturias, Principado de (AS)",2018,18.08,19.31,18.72
-"Balears, Illes (IB)",2018,15.88,15.81,15.84
-Canarias (CN),2018,19.85,20.77,20.31
-Cantabria (CB),2018,18.61,18.91,18.76
-Castilla y León (CL),2018,19.59,21.11,20.36
-Castilla - La Mancha (CM),2018,10.08,10.12,10.1
-Cataluña (CT),2018,13.14,14.64,13.9
-Comunitat Valenciana (VC),2018,20.25,20.95,20.61
-Extremadura (EX),2018,10.78,12.54,11.67
-Galicia (GA),2018,19.74,21.64,20.72
-"Madrid, Comunidad de (MD)",2018,14.51,15.62,15.09
-"Murcia, Región de (MC)",2018,16.97,18.58,17.77
-"Navarra, C. Foral de (NC)",2018,15.17,15.23,15.2
-País Vasco (PV),2018,15.65,16.05,15.86
-La Rioja (RI),2018,17.46,18.03,17.75
