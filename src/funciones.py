@@ -180,3 +180,52 @@ def download_tables(url):
             break
 
     return excel_names, len(excel_names)
+
+
+def move_excel(origen, destino):
+    """
+    Move Excel files from a source directory to a destination directory.
+
+    Parameters:
+    - origin (str): Path of the source directory containing the Excel files to move.
+    - destination (str): Path of the destination directory where the Excel files will be moved.
+
+    Returns:
+    None
+
+    Example:
+    ```python
+    move_excel("downloads", "excel_files")
+    ```
+
+    Note:
+    - Make sure the source directory contains files with the ".xls" extension.
+    - If the destination directory does not exist, it will be created automatically.
+
+    Warning:
+    - This function copies the files from the source to the destination, so if a file with the same name already exists in the destination, it will be overwritten.
+    - Information about the copied files and any potential errors during execution is printed.
+
+    """
+    
+    import os
+    import shutil
+    
+    try:
+        
+        archivos_descargas = os.listdir(origen)
+                
+        archivos_excel = [archivo for archivo in archivos_descargas if archivo.endswith(".xls")]
+        print(archivos_excel)
+        
+        if not os.path.exists(destino):
+            os.makedirs(destino)
+
+        for archivo_excel in archivos_excel:
+            ruta_origen = os.path.join(origen, archivo_excel)
+            ruta_destino = os.path.join(destino, archivo_excel)
+            shutil.copyfile(ruta_origen, ruta_destino)
+            print(f"Archivo {archivo_excel} copiado a {destino}")
+
+    except Exception as e:
+        print(f"Error al extraer archivos Excel: {e}")
