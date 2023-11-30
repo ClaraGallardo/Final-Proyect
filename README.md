@@ -21,5 +21,8 @@ else:
 
   print("El dataframe no tiene subcolumnas")
 
+
+- Ojo todo es objeto hay que cambiarlo a numérico
+
 5. CREAR SQL:
 6. DREAMLIT :
