@@ -3,9 +3,9 @@ from sqlalchemy import create_engine, text
 
 import pandas as pd
 
-def conention_to_SQL(user,password,host,database = None):
+def conection_to_SQL(user,password,host,database = None):
 
-    conexion = mysql.connector.connect(user = user, password = password, host = host, database = None)
+    conexion = mysql.connector.connect(user = user, password = password, host = host, database = database)
     cursor = conexion.cursor()
     
     return cursor 
