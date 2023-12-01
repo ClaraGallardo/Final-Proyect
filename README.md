@@ -24,8 +24,14 @@ else:
 - Ojo todo es objeto hay que cambiarlo a numérico
 - Incidencia de tuberculosis por 100 000 hab. no sale bien este tipo de tablas
 
-5. CREAR SQL:
-   Automatizar proceso 🤔 , puede que creando un método o clase me haga la estructura de las tablas en SQL y me carge los datos?
-6. DREAMLIT :
+Añadir a tablas id por comunidad y crear tabla con id
+
+4. CREAR SQL:
+
+Automatizar proceso 🤔 , puede que creando un método o clase me haga la estructura de las tablas en SQL y me carge los datos?
+
+
+DREAMLIT :
+
 
 - Intertar crear un chat para interactuar con los filtros, ej: dime donde se produjeron el mayor numero de accidentes de tráfico
