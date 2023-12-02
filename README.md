@@ -77,3 +77,52 @@ proyecto/
 ├── requirements.txt       # Archivo con las dependencias del proyecto
 ├── LICENSE                # Licencia del proyecto
 └── .git/                  # Carpeta git (control de versiones)
+
+# Estructura del Proyecto
+
+Este repositorio sigue una estructura organizada para facilitar el desarrollo y la comprensión del proyecto. A continuación, se describe la distribución de carpetas y archivos:
+
+## Carpeta `data`
+
+- **raw:** Contiene datos sin procesar.
+- **processed:** Almacena datos procesados.
+- **external:** Guarda datos externos (si los hay).
+
+## Carpeta `notebooks`
+
+- **exploracion.ipynb:** Notebook de exploración de datos.
+- **limpieza.ipynb:** Notebook de limpieza de datos.
+
+## Carpeta `scripts`
+
+- **extraccion.py:** Script para la extracción de datos.
+- **limpieza.py:** Script para la limpieza de datos.
+- **almacenamiento.py:** Script para el almacenamiento de datos.
+- **sql.py:** Script para la interacción con SQL.
+- **visualizacion.py:** Script para la visualización de datos.
+
+## Carpeta `app`
+
+- **main.py:** Script principal de Streamlit.
+- **requirements.txt:** Archivo con las dependencias del proyecto.
+
+## Carpeta `tests`
+
+- **test_extraccion.py:** Pruebas para el módulo de extracción.
+- **test_limpieza.py:** Pruebas para el módulo de limpieza.
+- **test_sql.py:** Pruebas para el módulo de SQL.
+
+## Carpeta `config`
+
+- **config.yaml:** Archivo de configuración.
+- **logging.conf:** Configuración del registro (logging).
+
+## Otros Archivos y Carpetas
+
+- **.gitignore:** Archivo de gitignore.
+- **README.md:** Documentación del proyecto.
+- **requirements.txt:** Archivo con las dependencias del proyecto.
+- **LICENSE:** Licencia del proyecto.
+- **.git/:** Carpeta git (control de versiones).
+
+
