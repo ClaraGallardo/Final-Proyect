@@ -22,16 +22,60 @@ else:
   print("El dataframe no tiene subcolumnas")
 
 - Ojo todo es objeto hay que cambiarlo a numérico
-- Incidencia de tuberculosis por 100 000 hab. no sale bien este tipo de tablas
+- Incidencia de tuberculosis por 100 000 hab. no sale bien este tipo de tablas (REGION,AÑOS,TOTAL)
 
 Añadir a tablas id por comunidad y crear tabla con id
 
 4. CREAR SQL:
 
-Automatizar proceso 🤔 , puede que creando un método o clase me haga la estructura de las tablas en SQL y me carge los datos?
+Automatizar proceso 🤔
 
+- Columna id en algunas tablas como float ojo si no tienen el mismo formato te tira para atras
+- subir primero tabla id para que se creen las primary key, si no, las foreign dan error al no tener columna de referencia
 
 DREAMLIT :
 
+- Intertar crear un chat para interactuar con los filtros, ej: dime donde se produjeron el mayor numero de accidentes de tráfico.
 
-- Intertar crear un chat para interactuar con los filtros, ej: dime donde se produjeron el mayor numero de accidentes de tráfico
+
+
+
+
+ESTRUCTURA CARPETAS:
+
+proyecto/
+│
+├── data/                  # Carpeta para almacenar los datos
+│   ├── raw/               # Datos sin procesar
+│   ├── processed/         # Datos procesados
+│   └── external/          # Datos externos (si los hay)
+│
+├── notebooks/             # Jupyter notebooks
+│   ├── exploracion.ipynb  # Notebook de exploración de datos
+│   └── limpieza.ipynb     # Notebook de limpieza de datos
+│
+├── scripts/               # Scripts de Python
+│   ├── extraccion.py      # Script para la extracción de datos
+│   ├── limpieza.py        # Script para la limpieza de datos
+│   ├── almacenamiento.py  # Script para el almacenamiento de datos
+│   ├── sql.py             # Script para la interacción con SQL
+│   └── visualizacion.py   # Script para la visualización de datos
+│
+├── app/                   # Código de la aplicación
+│   ├── main.py            # Script principal de Streamlit
+│   └── requirements.txt    # Archivo con las dependencias del proyecto
+│
+├── tests/                 # Pruebas unitarias y de integración
+│   ├── test_extraccion.py # Pruebas para el módulo de extracción
+│   ├── test_limpieza.py   # Pruebas para el módulo de limpieza
+│   └── test_sql.py        # Pruebas para el módulo de SQL
+│
+├── config/                # Configuración del proyecto
+│   ├── config.yaml        # Archivo de configuración
+│   └── logging.conf       # Configuración del registro (logging)
+│
+├── .gitignore             # Archivo de gitignore
+├── README.md              # Documentación del proyecto
+├── requirements.txt       # Archivo con las dependencias del proyecto
+├── LICENSE                # Licencia del proyecto
+└── .git/                  # Carpeta git (control de versiones)
