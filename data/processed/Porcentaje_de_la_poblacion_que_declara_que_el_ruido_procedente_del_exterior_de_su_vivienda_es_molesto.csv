@@ -1,0 +1,21 @@
+id,Region,Año,Hombre,Mujer,Total
+1,España (ES),2017,27.27,28.2,27.75
+2,Andalucía (AN),2017,32.62,32.19,32.4
+3,Aragón (AR),2017,31.56,30.93,31.24
+4,"Asturias, Principado de (AS)",2017,16.73,16.11,16.4
+5,"Balears, Illes (IB)",2017,35.65,32.31,33.97
+6,Canarias (CN),2017,31.05,29.56,30.29
+7,Cantabria (CB),2017,5.88,6.61,6.26
+8,Castilla y León (CL),2017,20.13,18.02,19.06
+9,Castilla - La Mancha (CM),2017,19.46,16.6,18.03
+10,Cataluña (CT),2017,26.36,28.37,27.39
+11,Comunitat Valenciana (VC),2017,34.76,34.94,34.85
+12,Extremadura (EX),2017,7.21,11.49,9.37
+13,Galicia (GA),2017,5.5,8.91,7.28
+14,"Madrid, Comunidad de (MD)",2017,32.29,36.76,34.63
+15,"Murcia, Región de (MC)",2017,37.92,34.97,36.44
+16,"Navarra, C. Foral de (NC)",2017,23.71,28.43,26.11
+17,País Vasco (PV),2017,26.62,29.79,28.27
+18,La Rioja (RI),2017,12.11,17.15,14.68
+19,Ceuta (CE),2017,36.64,36.11,36.38
+20,Melilla (ML),2017,52.45,57.58,55.02
