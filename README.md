@@ -123,6 +123,5 @@ Este repositorio sigue una estructura organizada para facilitar el desarrollo y 
 - **README.md:** Documentación del proyecto.
 - **requirements.txt:** Archivo con las dependencias del proyecto.
 - **LICENSE:** Licencia del proyecto.
-- **.git/:** Carpeta git (control de versiones).
 
 

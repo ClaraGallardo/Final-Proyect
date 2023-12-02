@@ -1,4 +1,24 @@
 id,Region,Año,Hombre,Mujer,Total
+1,España (ES),2021,2.74,2.35,2.55
+2,Andalucía (AN),2021,3.19,2.74,2.97
+3,Aragón (AR),2021,2.06,1.74,1.9
+4,"Asturias, Principado de (AS)",2021,2.0,2.62,2.3
+5,"Balears, Illes (IB)",2021,2.42,2.19,2.31
+6,Canarias (CN),2021,2.43,3.25,2.83
+7,Cantabria (CB),2021,5.37,4.35,4.87
+8,Castilla y León (CL),2021,2.24,2.34,2.29
+9,Castilla - La Mancha (CM),2021,3.21,2.69,2.96
+10,Cataluña (CT),2021,2.47,1.71,2.1
+11,Comunitat Valenciana (VC),2021,2.58,1.99,2.3
+12,Extremadura (EX),2021,2.67,0.29,1.52
+13,Galicia (GA),2021,2.24,2.36,2.3
+14,"Madrid, Comunidad de (MD)",2021,2.48,2.58,2.53
+15,"Murcia, Región de (MC)",2021,2.96,2.53,2.75
+16,"Navarra, C. Foral de (NC)",2021,2.66,3.23,2.93
+17,País Vasco (PV),2021,2.83,2.04,2.45
+18,La Rioja (RI),2021,6.21,3.76,5.02
+19,Ceuta (CE),2021,7.71,0.0,4.17
+20,Melilla (ML),2021,2.08,6.62,4.29
 1,España (ES),2019,2.89,2.38,2.65
 2,Andalucía (AN),2019,3.4,2.69,3.05
 3,Aragón (AR),2019,2.0,2.15,2.07
@@ -79,23 +99,3 @@ id,Region,Año,Hombre,Mujer,Total
 18,La Rioja (RI),2020,2.56,2.62,2.59
 19,Ceuta (CE),2020,4.6,2.45,3.56
 20,Melilla (ML),2020,2.07,4.18,3.12
-1,España (ES),2021,2.74,2.35,2.55
-2,Andalucía (AN),2021,3.19,2.74,2.97
-3,Aragón (AR),2021,2.06,1.74,1.9
-4,"Asturias, Principado de (AS)",2021,2.0,2.62,2.3
-5,"Balears, Illes (IB)",2021,2.42,2.19,2.31
-6,Canarias (CN),2021,2.43,3.25,2.83
-7,Cantabria (CB),2021,5.37,4.35,4.87
-8,Castilla y León (CL),2021,2.24,2.34,2.29
-9,Castilla - La Mancha (CM),2021,3.21,2.69,2.96
-10,Cataluña (CT),2021,2.47,1.71,2.1
-11,Comunitat Valenciana (VC),2021,2.58,1.99,2.3
-12,Extremadura (EX),2021,2.67,0.29,1.52
-13,Galicia (GA),2021,2.24,2.36,2.3
-14,"Madrid, Comunidad de (MD)",2021,2.48,2.58,2.53
-15,"Murcia, Región de (MC)",2021,2.96,2.53,2.75
-16,"Navarra, C. Foral de (NC)",2021,2.66,3.23,2.93
-17,País Vasco (PV),2021,2.83,2.04,2.45
-18,La Rioja (RI),2021,6.21,3.76,5.02
-19,Ceuta (CE),2021,7.71,0.0,4.17
-20,Melilla (ML),2021,2.08,6.62,4.29

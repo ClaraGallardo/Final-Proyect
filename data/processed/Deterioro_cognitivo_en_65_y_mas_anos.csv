@@ -1,24 +1,4 @@
 id,Region,Año,Hombre,Mujer,Total
-1,España (ES),2020,21.51,30.7,26.66
-2,Andalucía (AN),2020,17.61,23.36,20.81
-3,Aragón (AR),2020,27.62,27.86,27.76
-4,"Asturias, Principado de (AS)",2020,18.66,26.1,22.95
-5,"Balears, Illes (IB)",2020,13.41,22.1,18.17
-6,Canarias (CN),2020,40.43,48.18,44.65
-7,Cantabria (CB),2020,14.51,18.01,16.49
-8,Castilla y León (CL),2020,28.67,35.41,32.35
-9,Castilla - La Mancha (CM),2020,27.19,31.16,29.36
-10,Cataluña (CT),2020,18.14,29.96,24.79
-11,Comunitat Valenciana (VC),2020,18.45,34.64,27.46
-12,Extremadura (EX),2020,24.35,28.72,26.77
-13,Galicia (GA),2020,29.67,36.32,33.44
-14,"Madrid, Comunidad de (MD)",2020,15.13,26.8,21.87
-15,"Murcia, Región de (MC)",2020,30.69,46.27,39.37
-16,"Navarra, C. Foral de (NC)",2020,22.02,20.23,21.04
-17,País Vasco (PV),2020,21.31,36.54,29.96
-18,La Rioja (RI),2020,28.33,32.55,30.65
-19,Ceuta (CE),2020,15.41,36.47,26.91
-20,Melilla (ML),2020,14.69,18.03,16.49
 1,España (ES),2017,27.2,34.48,31.3
 2,Andalucía (AN),2017,30.58,38.96,35.27
 3,Aragón (AR),2017,27.99,46.78,38.45
@@ -39,3 +19,23 @@ id,Region,Año,Hombre,Mujer,Total
 18,La Rioja (RI),2017,21.2,40.78,32.0
 19,Ceuta (CE),2017,28.59,20.74,24.25
 20,Melilla (ML),2017,27.62,18.49,22.52
+1,España (ES),2020,21.51,30.7,26.66
+2,Andalucía (AN),2020,17.61,23.36,20.81
+3,Aragón (AR),2020,27.62,27.86,27.76
+4,"Asturias, Principado de (AS)",2020,18.66,26.1,22.95
+5,"Balears, Illes (IB)",2020,13.41,22.1,18.17
+6,Canarias (CN),2020,40.43,48.18,44.65
+7,Cantabria (CB),2020,14.51,18.01,16.49
+8,Castilla y León (CL),2020,28.67,35.41,32.35
+9,Castilla - La Mancha (CM),2020,27.19,31.16,29.36
+10,Cataluña (CT),2020,18.14,29.96,24.79
+11,Comunitat Valenciana (VC),2020,18.45,34.64,27.46
+12,Extremadura (EX),2020,24.35,28.72,26.77
+13,Galicia (GA),2020,29.67,36.32,33.44
+14,"Madrid, Comunidad de (MD)",2020,15.13,26.8,21.87
+15,"Murcia, Región de (MC)",2020,30.69,46.27,39.37
+16,"Navarra, C. Foral de (NC)",2020,22.02,20.23,21.04
+17,País Vasco (PV),2020,21.31,36.54,29.96
+18,La Rioja (RI),2020,28.33,32.55,30.65
+19,Ceuta (CE),2020,15.41,36.47,26.91
+20,Melilla (ML),2020,14.69,18.03,16.49

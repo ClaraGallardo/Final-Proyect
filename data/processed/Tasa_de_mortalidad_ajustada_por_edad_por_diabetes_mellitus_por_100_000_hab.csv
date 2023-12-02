@@ -1,4 +1,24 @@
 id,Region,Año,Hombre,Mujer,Total
+1,España (ES),2021,22.42,16.43,19.16
+2,Andalucía (AN),2021,30.14,22.45,25.99
+3,Aragón (AR),2021,25.71,18.51,21.89
+4,"Asturias, Principado de (AS)",2021,23.87,15.34,18.85
+5,"Balears, Illes (IB)",2021,26.22,18.91,22.16
+6,Canarias (CN),2021,17.97,14.16,16.15
+7,Cantabria (CB),2021,18.79,14.91,16.31
+8,Castilla y León (CL),2021,29.56,21.02,25.24
+9,Castilla - La Mancha (CM),2021,17.55,17.7,18.15
+10,Cataluña (CT),2021,23.71,16.05,19.33
+11,Comunitat Valenciana (VC),2021,30.0,24.5,27.07
+12,Extremadura (EX),2021,20.86,17.24,18.96
+13,Galicia (GA),2021,17.37,11.08,13.95
+14,"Madrid, Comunidad de (MD)",2021,7.02,4.79,5.74
+15,"Murcia, Región de (MC)",2021,29.48,23.1,26.03
+16,"Navarra, C. Foral de (NC)",2021,18.01,11.51,14.42
+17,País Vasco (PV),2021,17.52,12.44,14.76
+18,La Rioja (RI),2021,19.66,12.41,15.46
+19,Ceuta (CE),2021,42.69,55.97,48.94
+20,Melilla (ML),2021,28.56,43.29,37.73
 1,España (ES),2019,20.65,15.33,17.7
 2,Andalucía (AN),2019,23.0,19.01,20.82
 3,Aragón (AR),2019,26.01,17.56,21.21
@@ -79,23 +99,3 @@ id,Region,Año,Hombre,Mujer,Total
 18,La Rioja (RI),2020,17.07,13.96,15.82
 19,Ceuta (CE),2020,55.48,42.47,47.11
 20,Melilla (ML),2020,55.9,55.37,55.63
-1,España (ES),2021,22.42,16.43,19.16
-2,Andalucía (AN),2021,30.14,22.45,25.99
-3,Aragón (AR),2021,25.71,18.51,21.89
-4,"Asturias, Principado de (AS)",2021,23.87,15.34,18.85
-5,"Balears, Illes (IB)",2021,26.22,18.91,22.16
-6,Canarias (CN),2021,17.97,14.16,16.15
-7,Cantabria (CB),2021,18.79,14.91,16.31
-8,Castilla y León (CL),2021,29.56,21.02,25.24
-9,Castilla - La Mancha (CM),2021,17.55,17.7,18.15
-10,Cataluña (CT),2021,23.71,16.05,19.33
-11,Comunitat Valenciana (VC),2021,30.0,24.5,27.07
-12,Extremadura (EX),2021,20.86,17.24,18.96
-13,Galicia (GA),2021,17.37,11.08,13.95
-14,"Madrid, Comunidad de (MD)",2021,7.02,4.79,5.74
-15,"Murcia, Región de (MC)",2021,29.48,23.1,26.03
-16,"Navarra, C. Foral de (NC)",2021,18.01,11.51,14.42
-17,País Vasco (PV),2021,17.52,12.44,14.76
-18,La Rioja (RI),2021,19.66,12.41,15.46
-19,Ceuta (CE),2021,42.69,55.97,48.94
-20,Melilla (ML),2021,28.56,43.29,37.73

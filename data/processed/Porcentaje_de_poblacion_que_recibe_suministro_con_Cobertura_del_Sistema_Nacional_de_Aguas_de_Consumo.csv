@@ -1,4 +1,24 @@
 id,Region,Año,Total
+1,España (ES),2021,84.38
+2,Andalucía (AN),2021,90.72
+3,Aragón (AR),2021,73.49
+4,"Asturias, Principado de (AS)",2021,78.89
+5,"Balears, Illes (IB)",2021,60.19
+6,Canarias (CN),2021,90.92
+7,Cantabria (CB),2021,90.04
+8,Castilla y León (CL),2021,98.6
+9,Castilla - La Mancha (CM),2021,85.33
+10,Cataluña (CT),2021,83.72
+11,Comunitat Valenciana (VC),2021,86.26
+12,Extremadura (EX),2021,86.58
+13,Galicia (GA),2021,72.7
+14,"Madrid, Comunidad de (MD)",2021,76.6
+15,"Murcia, Región de (MC)",2021,96.34
+16,"Navarra, C. Foral de (NC)",2021,88.72
+17,País Vasco (PV),2021,81.31
+18,La Rioja (RI),2021,94.12
+19,Ceuta (CE),2021,85.02
+20,Melilla (ML),2021,99.21
 1,España (ES),2019,84.19
 2,Andalucía (AN),2019,91.31
 3,Aragón (AR),2019,82.28
@@ -79,23 +99,3 @@ id,Region,Año,Total
 18,La Rioja (RI),2020,94.12
 19,Ceuta (CE),2020,85.02
 20,Melilla (ML),2020,99.21
-1,España (ES),2021,84.38
-2,Andalucía (AN),2021,90.72
-3,Aragón (AR),2021,73.49
-4,"Asturias, Principado de (AS)",2021,78.89
-5,"Balears, Illes (IB)",2021,60.19
-6,Canarias (CN),2021,90.92
-7,Cantabria (CB),2021,90.04
-8,Castilla y León (CL),2021,98.6
-9,Castilla - La Mancha (CM),2021,85.33
-10,Cataluña (CT),2021,83.72
-11,Comunitat Valenciana (VC),2021,86.26
-12,Extremadura (EX),2021,86.58
-13,Galicia (GA),2021,72.7
-14,"Madrid, Comunidad de (MD)",2021,76.6
-15,"Murcia, Región de (MC)",2021,96.34
-16,"Navarra, C. Foral de (NC)",2021,88.72
-17,País Vasco (PV),2021,81.31
-18,La Rioja (RI),2021,94.12
-19,Ceuta (CE),2021,85.02
-20,Melilla (ML),2021,99.21
