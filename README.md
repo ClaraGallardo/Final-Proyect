@@ -1,13 +1,8 @@
-
-!image[https://github.com/ClaraGallardo/Final-Proyect/blob/main/image/_e892beb1-ce74-4650-a16d-0ebd744866fd.jpeg]
+(https://github.com/ClaraGallardo/Final-Proyect/blob/main/image/_e892beb1-ce74-4650-a16d-0ebd744866fd.jpeg)
 
 1. Descarga de datos https://inclasns.sanidad.gob.es/main.html'  🆗
 2. Obtengo excel y muevo de descargas a data 🆗
 3. Estudio excel  y limpieza. 🆗
-
-
-
-
 
 Creaciónd e funciones para limpiar todos los xls de golpe.
 
