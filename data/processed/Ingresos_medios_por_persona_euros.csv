@@ -1,24 +1,4 @@
 id,Region,Año,Hombre,Mujer,Total
-1,España (ES),2019,11768.0,11595.0,11680
-2,Andalucía (AN),2019,,,9160
-3,Aragón (AR),2019,,,12300
-4,"Asturias, Principado de (AS)",2019,,,12523
-5,"Balears, Illes (IB)",2019,,,12410
-6,Canarias (CN),2019,,,9487
-7,Cantabria (CB),2019,,,12205
-8,Castilla y León (CL),2019,,,12003
-9,Castilla - La Mancha (CM),2019,,,9715
-10,Cataluña (CT),2019,,,13527
-11,Comunitat Valenciana (VC),2019,,,10611
-12,Extremadura (EX),2019,,,8796
-13,Galicia (GA),2019,,,11218
-14,"Madrid, Comunidad de (MD)",2019,,,14199
-15,"Murcia, Región de (MC)",2019,,,8956
-16,"Navarra, C. Foral de (NC)",2019,,,13937
-17,País Vasco (PV),2019,,,15300
-18,La Rioja (RI),2019,,,12697
-19,Ceuta (CE),2019,,,10164
-20,Melilla (ML),2019,,,11733
 1,España (ES),2017,11153.0,10998.0,11074
 2,Andalucía (AN),2017,,,9116
 3,Aragón (AR),2017,,,12110
@@ -39,66 +19,6 @@ id,Region,Año,Hombre,Mujer,Total
 18,La Rioja (RI),2017,,,12131
 19,Ceuta (CE),2017,,,9676
 20,Melilla (ML),2017,,,10161
-1,España (ES),2018,11549.0,11279.0,11412
-2,Andalucía (AN),2018,,,9258
-3,Aragón (AR),2018,,,11990
-4,"Asturias, Principado de (AS)",2018,,,12085
-5,"Balears, Illes (IB)",2018,,,13240
-6,Canarias (CN),2018,,,8964
-7,Cantabria (CB),2018,,,11239
-8,Castilla y León (CL),2018,,,11949
-9,Castilla - La Mancha (CM),2018,,,9533
-10,Cataluña (CT),2018,,,13338
-11,Comunitat Valenciana (VC),2018,,,10232
-12,Extremadura (EX),2018,,,8503
-13,Galicia (GA),2018,,,11239
-14,"Madrid, Comunidad de (MD)",2018,,,13279
-15,"Murcia, Región de (MC)",2018,,,9111
-16,"Navarra, C. Foral de (NC)",2018,,,13585
-17,País Vasco (PV),2018,,,14722
-18,La Rioja (RI),2018,,,12029
-19,Ceuta (CE),2018,,,9784
-20,Melilla (ML),2018,,,12507
-1,España (ES),2020,12433.0,12156.0,12292
-2,Andalucía (AN),2020,,,9990
-3,Aragón (AR),2020,,,13097
-4,"Asturias, Principado de (AS)",2020,,,12786
-5,"Balears, Illes (IB)",2020,,,12658
-6,Canarias (CN),2020,,,9935
-7,Cantabria (CB),2020,,,12748
-8,Castilla y León (CL),2020,,,12697
-9,Castilla - La Mancha (CM),2020,,,10485
-10,Cataluña (CT),2020,,,14170
-11,Comunitat Valenciana (VC),2020,,,11332
-12,Extremadura (EX),2020,,,9147
-13,Galicia (GA),2020,,,11469
-14,"Madrid, Comunidad de (MD)",2020,,,14580
-15,"Murcia, Región de (MC)",2020,,,9850
-16,"Navarra, C. Foral de (NC)",2020,,,15094
-17,País Vasco (PV),2020,,,15813
-18,La Rioja (RI),2020,,,13504
-19,Ceuta (CE),2020,,,9853
-20,Melilla (ML),2020,,,11427
-1,España (ES),2022,13180.0,12843.0,13008
-2,Andalucía (AN),2022,,,10703
-3,Aragón (AR),2022,,,14015
-4,"Asturias, Principado de (AS)",2022,,,13777
-5,"Balears, Illes (IB)",2022,,,12451
-6,Canarias (CN),2022,,,10716
-7,Cantabria (CB),2022,,,13811
-8,Castilla y León (CL),2022,,,13323
-9,Castilla - La Mancha (CM),2022,,,11037
-10,Cataluña (CT),2022,,,14692
-11,Comunitat Valenciana (VC),2022,,,11876
-12,Extremadura (EX),2022,,,10133
-13,Galicia (GA),2022,,,12352
-14,"Madrid, Comunidad de (MD)",2022,,,15695
-15,"Murcia, Región de (MC)",2022,,,10632
-16,"Navarra, C. Foral de (NC)",2022,,,15970
-17,País Vasco (PV),2022,,,16427
-18,La Rioja (RI),2022,,,13538
-19,Ceuta (CE),2022,,,12152
-20,Melilla (ML),2022,,,13089
 1,España (ES),2021,12358.0,12184.0,12269
 2,Andalucía (AN),2021,,,9915
 3,Aragón (AR),2021,,,13345
@@ -119,3 +39,83 @@ id,Region,Año,Hombre,Mujer,Total
 18,La Rioja (RI),2021,,,12913
 19,Ceuta (CE),2021,,,10397
 20,Melilla (ML),2021,,,12012
+1,España (ES),2020,12433.0,12156.0,12292
+2,Andalucía (AN),2020,,,9990
+3,Aragón (AR),2020,,,13097
+4,"Asturias, Principado de (AS)",2020,,,12786
+5,"Balears, Illes (IB)",2020,,,12658
+6,Canarias (CN),2020,,,9935
+7,Cantabria (CB),2020,,,12748
+8,Castilla y León (CL),2020,,,12697
+9,Castilla - La Mancha (CM),2020,,,10485
+10,Cataluña (CT),2020,,,14170
+11,Comunitat Valenciana (VC),2020,,,11332
+12,Extremadura (EX),2020,,,9147
+13,Galicia (GA),2020,,,11469
+14,"Madrid, Comunidad de (MD)",2020,,,14580
+15,"Murcia, Región de (MC)",2020,,,9850
+16,"Navarra, C. Foral de (NC)",2020,,,15094
+17,País Vasco (PV),2020,,,15813
+18,La Rioja (RI),2020,,,13504
+19,Ceuta (CE),2020,,,9853
+20,Melilla (ML),2020,,,11427
+1,España (ES),2019,11768.0,11595.0,11680
+2,Andalucía (AN),2019,,,9160
+3,Aragón (AR),2019,,,12300
+4,"Asturias, Principado de (AS)",2019,,,12523
+5,"Balears, Illes (IB)",2019,,,12410
+6,Canarias (CN),2019,,,9487
+7,Cantabria (CB),2019,,,12205
+8,Castilla y León (CL),2019,,,12003
+9,Castilla - La Mancha (CM),2019,,,9715
+10,Cataluña (CT),2019,,,13527
+11,Comunitat Valenciana (VC),2019,,,10611
+12,Extremadura (EX),2019,,,8796
+13,Galicia (GA),2019,,,11218
+14,"Madrid, Comunidad de (MD)",2019,,,14199
+15,"Murcia, Región de (MC)",2019,,,8956
+16,"Navarra, C. Foral de (NC)",2019,,,13937
+17,País Vasco (PV),2019,,,15300
+18,La Rioja (RI),2019,,,12697
+19,Ceuta (CE),2019,,,10164
+20,Melilla (ML),2019,,,11733
+1,España (ES),2022,13180.0,12843.0,13008
+2,Andalucía (AN),2022,,,10703
+3,Aragón (AR),2022,,,14015
+4,"Asturias, Principado de (AS)",2022,,,13777
+5,"Balears, Illes (IB)",2022,,,12451
+6,Canarias (CN),2022,,,10716
+7,Cantabria (CB),2022,,,13811
+8,Castilla y León (CL),2022,,,13323
+9,Castilla - La Mancha (CM),2022,,,11037
+10,Cataluña (CT),2022,,,14692
+11,Comunitat Valenciana (VC),2022,,,11876
+12,Extremadura (EX),2022,,,10133
+13,Galicia (GA),2022,,,12352
+14,"Madrid, Comunidad de (MD)",2022,,,15695
+15,"Murcia, Región de (MC)",2022,,,10632
+16,"Navarra, C. Foral de (NC)",2022,,,15970
+17,País Vasco (PV),2022,,,16427
+18,La Rioja (RI),2022,,,13538
+19,Ceuta (CE),2022,,,12152
+20,Melilla (ML),2022,,,13089
+1,España (ES),2018,11549.0,11279.0,11412
+2,Andalucía (AN),2018,,,9258
+3,Aragón (AR),2018,,,11990
+4,"Asturias, Principado de (AS)",2018,,,12085
+5,"Balears, Illes (IB)",2018,,,13240
+6,Canarias (CN),2018,,,8964
+7,Cantabria (CB),2018,,,11239
+8,Castilla y León (CL),2018,,,11949
+9,Castilla - La Mancha (CM),2018,,,9533
+10,Cataluña (CT),2018,,,13338
+11,Comunitat Valenciana (VC),2018,,,10232
+12,Extremadura (EX),2018,,,8503
+13,Galicia (GA),2018,,,11239
+14,"Madrid, Comunidad de (MD)",2018,,,13279
+15,"Murcia, Región de (MC)",2018,,,9111
+16,"Navarra, C. Foral de (NC)",2018,,,13585
+17,País Vasco (PV),2018,,,14722
+18,La Rioja (RI),2018,,,12029
+19,Ceuta (CE),2018,,,9784
+20,Melilla (ML),2018,,,12507

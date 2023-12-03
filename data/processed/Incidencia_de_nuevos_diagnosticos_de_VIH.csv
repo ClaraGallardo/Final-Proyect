@@ -1,24 +1,4 @@
 id,Region,Año,Hombre,Mujer,Total
-1,España (ES),2019,14.31,2.15,8.11
-2,Andalucía (AN),2019,11.71,1.99,6.78
-3,Aragón (AR),2019,15.75,4.18,9.89
-4,"Asturias, Principado de (AS)",2019,11.07,2.07,6.37
-5,"Balears, Illes (IB)",2019,16.01,3.67,9.85
-6,Canarias (CN),2019,17.98,2.41,10.13
-7,Cantabria (CB),2019,4.94,0.67,2.75
-8,Castilla y León (CL),2019,6.58,1.48,4.0
-9,Castilla - La Mancha (CM),2019,4.59,0.98,2.8
-10,Cataluña (CT),2019,14.83,2.03,8.29
-11,Comunitat Valenciana (VC),2019,17.75,2.64,10.08
-12,Extremadura (EX),2019,6.26,0.93,3.58
-13,Galicia (GA),2019,10.9,0.79,5.67
-14,"Madrid, Comunidad de (MD)",2019,24.09,2.67,12.94
-15,"Murcia, Región de (MC)",2019,14.85,2.81,8.83
-16,"Navarra, C. Foral de (NC)",2019,11.17,2.73,6.9
-17,País Vasco (PV),2019,11.56,2.22,6.74
-18,La Rioja (RI),2019,11.61,1.88,6.68
-19,Ceuta (CE),2019,0.0,0.0,0.0
-20,Melilla (ML),2019,4.71,0.0,2.37
 1,España (ES),2017,15.87,2.66,9.14
 2,Andalucía (AN),2017,13.1,2.45,7.71
 3,Aragón (AR),2017,11.69,5.71,8.66
@@ -39,46 +19,6 @@ id,Region,Año,Hombre,Mujer,Total
 18,La Rioja (RI),2017,10.37,1.26,5.76
 19,Ceuta (CE),2017,2.31,0.0,1.18
 20,Melilla (ML),2017,4.66,0.0,2.36
-1,España (ES),2018,14.84,2.38,8.49
-2,Andalucía (AN),2018,12.5,2.49,7.44
-3,Aragón (AR),2018,12.62,4.5,8.51
-4,"Asturias, Principado de (AS)",2018,10.01,3.93,6.83
-5,"Balears, Illes (IB)",2018,18.18,3.4,10.79
-6,Canarias (CN),2018,22.65,2.36,12.43
-7,Cantabria (CB),2018,9.53,1.34,5.34
-8,Castilla y León (CL),2018,8.82,1.23,4.98
-9,Castilla - La Mancha (CM),2018,7.16,0.79,3.99
-10,Cataluña (CT),2018,16.39,2.37,9.22
-11,Comunitat Valenciana (VC),2018,15.26,2.35,8.71
-12,Extremadura (EX),2018,4.72,0.56,2.62
-13,Galicia (GA),2018,7.52,1.5,4.41
-14,"Madrid, Comunidad de (MD)",2018,25.32,2.86,13.63
-15,"Murcia, Región de (MC)",2018,14.05,2.17,8.11
-16,"Navarra, C. Foral de (NC)",2018,10.02,2.45,6.19
-17,País Vasco (PV),2018,12.93,2.94,7.78
-18,La Rioja (RI),2018,13.61,4.42,8.95
-19,Ceuta (CE),2018,2.32,0.0,1.18
-20,Melilla (ML),2018,2.34,2.39,2.36
-1,España (ES),2020,10.24,1.63,5.85
-2,Andalucía (AN),2020,10.15,1.72,5.88
-3,Aragón (AR),2020,10.65,3.71,7.14
-4,"Asturias, Principado de (AS)",2020,7.21,2.26,4.63
-5,"Balears, Illes (IB)",2020,16.45,3.29,9.88
-6,Canarias (CN),2020,14.03,2.21,8.06
-7,Cantabria (CB),2020,4.93,0.0,2.4
-8,Castilla y León (CL),2020,6.27,0.99,3.6
-9,Castilla - La Mancha (CM),2020,3.32,0.59,1.96
-10,Cataluña (CT),2020,10.09,1.43,5.67
-11,Comunitat Valenciana (VC),2020,12.38,2.19,7.21
-12,Extremadura (EX),2020,1.52,0.0,0.76
-13,Galicia (GA),2020,6.76,1.22,3.89
-14,"Madrid, Comunidad de (MD)",2020,15.53,1.34,8.14
-15,"Murcia, Región de (MC)",2020,9.0,1.19,5.1
-16,"Navarra, C. Foral de (NC)",2020,6.16,2.71,4.41
-17,País Vasco (PV),2020,7.93,1.86,4.8
-18,La Rioja (RI),2020,7.7,2.49,5.06
-19,Ceuta (CE),2020,0.0,0.0,0.0
-20,Melilla (ML),2020,2.36,0.0,1.19
 1,España (ES),2021,10.34,1.61,5.89
 2,Andalucía (AN),2021,10.3,1.6,5.89
 3,Aragón (AR),2021,13.13,2.4,7.69
@@ -99,3 +39,63 @@ id,Region,Año,Hombre,Mujer,Total
 18,La Rioja (RI),2021,9.64,0.62,5.07
 19,Ceuta (CE),2021,0.0,0.0,0.0
 20,Melilla (ML),2021,2.39,0.0,1.2
+1,España (ES),2020,10.24,1.63,5.85
+2,Andalucía (AN),2020,10.15,1.72,5.88
+3,Aragón (AR),2020,10.65,3.71,7.14
+4,"Asturias, Principado de (AS)",2020,7.21,2.26,4.63
+5,"Balears, Illes (IB)",2020,16.45,3.29,9.88
+6,Canarias (CN),2020,14.03,2.21,8.06
+7,Cantabria (CB),2020,4.93,0.0,2.4
+8,Castilla y León (CL),2020,6.27,0.99,3.6
+9,Castilla - La Mancha (CM),2020,3.32,0.59,1.96
+10,Cataluña (CT),2020,10.09,1.43,5.67
+11,Comunitat Valenciana (VC),2020,12.38,2.19,7.21
+12,Extremadura (EX),2020,1.52,0.0,0.76
+13,Galicia (GA),2020,6.76,1.22,3.89
+14,"Madrid, Comunidad de (MD)",2020,15.53,1.34,8.14
+15,"Murcia, Región de (MC)",2020,9.0,1.19,5.1
+16,"Navarra, C. Foral de (NC)",2020,6.16,2.71,4.41
+17,País Vasco (PV),2020,7.93,1.86,4.8
+18,La Rioja (RI),2020,7.7,2.49,5.06
+19,Ceuta (CE),2020,0.0,0.0,0.0
+20,Melilla (ML),2020,2.36,0.0,1.19
+1,España (ES),2019,14.31,2.15,8.11
+2,Andalucía (AN),2019,11.71,1.99,6.78
+3,Aragón (AR),2019,15.75,4.18,9.89
+4,"Asturias, Principado de (AS)",2019,11.07,2.07,6.37
+5,"Balears, Illes (IB)",2019,16.01,3.67,9.85
+6,Canarias (CN),2019,17.98,2.41,10.13
+7,Cantabria (CB),2019,4.94,0.67,2.75
+8,Castilla y León (CL),2019,6.58,1.48,4.0
+9,Castilla - La Mancha (CM),2019,4.59,0.98,2.8
+10,Cataluña (CT),2019,14.83,2.03,8.29
+11,Comunitat Valenciana (VC),2019,17.75,2.64,10.08
+12,Extremadura (EX),2019,6.26,0.93,3.58
+13,Galicia (GA),2019,10.9,0.79,5.67
+14,"Madrid, Comunidad de (MD)",2019,24.09,2.67,12.94
+15,"Murcia, Región de (MC)",2019,14.85,2.81,8.83
+16,"Navarra, C. Foral de (NC)",2019,11.17,2.73,6.9
+17,País Vasco (PV),2019,11.56,2.22,6.74
+18,La Rioja (RI),2019,11.61,1.88,6.68
+19,Ceuta (CE),2019,0.0,0.0,0.0
+20,Melilla (ML),2019,4.71,0.0,2.37
+1,España (ES),2018,14.84,2.38,8.49
+2,Andalucía (AN),2018,12.5,2.49,7.44
+3,Aragón (AR),2018,12.62,4.5,8.51
+4,"Asturias, Principado de (AS)",2018,10.01,3.93,6.83
+5,"Balears, Illes (IB)",2018,18.18,3.4,10.79
+6,Canarias (CN),2018,22.65,2.36,12.43
+7,Cantabria (CB),2018,9.53,1.34,5.34
+8,Castilla y León (CL),2018,8.82,1.23,4.98
+9,Castilla - La Mancha (CM),2018,7.16,0.79,3.99
+10,Cataluña (CT),2018,16.39,2.37,9.22
+11,Comunitat Valenciana (VC),2018,15.26,2.35,8.71
+12,Extremadura (EX),2018,4.72,0.56,2.62
+13,Galicia (GA),2018,7.52,1.5,4.41
+14,"Madrid, Comunidad de (MD)",2018,25.32,2.86,13.63
+15,"Murcia, Región de (MC)",2018,14.05,2.17,8.11
+16,"Navarra, C. Foral de (NC)",2018,10.02,2.45,6.19
+17,País Vasco (PV),2018,12.93,2.94,7.78
+18,La Rioja (RI),2018,13.61,4.42,8.95
+19,Ceuta (CE),2018,2.32,0.0,1.18
+20,Melilla (ML),2018,2.34,2.39,2.36

@@ -1,24 +1,4 @@
 id,Region,Año,Total
-1,España (ES),2019,3019.64
-2,Andalucía (AN),2019,3404.92
-3,Aragón (AR),2019,2948.34
-4,"Asturias, Principado de (AS)",2019,3021.6
-5,"Balears, Illes (IB)",2019,4348.78
-6,Canarias (CN),2019,2876.33
-7,Cantabria (CB),2019,2799.62
-8,Castilla y León (CL),2019,2975.86
-9,Castilla - La Mancha (CM),2019,3659.36
-10,Cataluña (CT),2019,2892.07
-11,Comunitat Valenciana (VC),2019,2824.84
-12,Extremadura (EX),2019,3165.91
-13,Galicia (GA),2019,3158.48
-14,"Madrid, Comunidad de (MD)",2019,2437.12
-15,"Murcia, Región de (MC)",2019,3073.29
-16,"Navarra, C. Foral de (NC)",2019,3766.34
-17,País Vasco (PV),2019,3252.97
-18,La Rioja (RI),2019,3397.21
-19,Ceuta (CE),2019,2412.86
-20,Melilla (ML),2019,2618.5
 1,España (ES),2017,3408.76
 2,Andalucía (AN),2017,3846.62
 3,Aragón (AR),2017,3247.05
@@ -39,66 +19,6 @@ id,Region,Año,Total
 18,La Rioja (RI),2017,3668.88
 19,Ceuta (CE),2017,3347.84
 20,Melilla (ML),2017,3242.25
-1,España (ES),2018,3408.7
-2,Andalucía (AN),2018,3837.96
-3,Aragón (AR),2018,3303.32
-4,"Asturias, Principado de (AS)",2018,3444.52
-5,"Balears, Illes (IB)",2018,4996.33
-6,Canarias (CN),2018,3530.63
-7,Cantabria (CB),2018,3078.63
-8,Castilla y León (CL),2018,3392.0
-9,Castilla - La Mancha (CM),2018,4083.85
-10,Cataluña (CT),2018,3313.41
-11,Comunitat Valenciana (VC),2018,3171.32
-12,Extremadura (EX),2018,3803.99
-13,Galicia (GA),2018,3514.05
-14,"Madrid, Comunidad de (MD)",2018,2784.15
-15,"Murcia, Región de (MC)",2018,3514.41
-16,"Navarra, C. Foral de (NC)",2018,3746.58
-17,País Vasco (PV),2018,3390.18
-18,La Rioja (RI),2018,3619.87
-19,Ceuta (CE),2018,2865.16
-20,Melilla (ML),2018,3625.63
-1,España (ES),2020,2455.1
-2,Andalucía (AN),2020,2768.4
-3,Aragón (AR),2020,2836.7
-4,"Asturias, Principado de (AS)",2020,2586.6
-5,"Balears, Illes (IB)",2020,2916.7
-6,Canarias (CN),2020,2027.1
-7,Cantabria (CB),2020,2521.8
-8,Castilla y León (CL),2020,2544.0
-9,Castilla - La Mancha (CM),2020,3290.9
-10,Cataluña (CT),2020,2279.5
-11,Comunitat Valenciana (VC),2020,2401.3
-12,Extremadura (EX),2020,2709.7
-13,Galicia (GA),2020,2552.1
-14,"Madrid, Comunidad de (MD)",2020,1863.5
-15,"Murcia, Región de (MC)",2020,2770.9
-16,"Navarra, C. Foral de (NC)",2020,3144.9
-17,País Vasco (PV),2020,2728.1
-18,La Rioja (RI),2020,2863.5
-19,Ceuta (CE),2020,2297.6
-20,Melilla (ML),2020,2077.5
-1,España (ES),2022,2950.74
-2,Andalucía (AN),2022,3035.92
-3,Aragón (AR),2022,2983.74
-4,"Asturias, Principado de (AS)",2022,3553.02
-5,"Balears, Illes (IB)",2022,4893.24
-6,Canarias (CN),2022,2715.65
-7,Cantabria (CB),2022,4226.25
-8,Castilla y León (CL),2022,2820.99
-9,Castilla - La Mancha (CM),2022,4053.51
-10,Cataluña (CT),2022,2885.34
-11,Comunitat Valenciana (VC),2022,2757.08
-12,Extremadura (EX),2022,3022.62
-13,Galicia (GA),2022,2774.42
-14,"Madrid, Comunidad de (MD)",2022,2286.45
-15,"Murcia, Región de (MC)",2022,3146.65
-16,"Navarra, C. Foral de (NC)",2022,3766.14
-17,País Vasco (PV),2022,3133.9
-18,La Rioja (RI),2022,4247.9
-19,Ceuta (CE),2022,2683.83
-20,Melilla (ML),2022,2978.94
 1,España (ES),2021,2810.49
 2,Andalucía (AN),2021,2949.69
 3,Aragón (AR),2021,2919.49
@@ -119,3 +39,83 @@ id,Region,Año,Total
 18,La Rioja (RI),2021,3637.45
 19,Ceuta (CE),2021,2756.14
 20,Melilla (ML),2021,2665.49
+1,España (ES),2020,2455.1
+2,Andalucía (AN),2020,2768.4
+3,Aragón (AR),2020,2836.7
+4,"Asturias, Principado de (AS)",2020,2586.6
+5,"Balears, Illes (IB)",2020,2916.7
+6,Canarias (CN),2020,2027.1
+7,Cantabria (CB),2020,2521.8
+8,Castilla y León (CL),2020,2544.0
+9,Castilla - La Mancha (CM),2020,3290.9
+10,Cataluña (CT),2020,2279.5
+11,Comunitat Valenciana (VC),2020,2401.3
+12,Extremadura (EX),2020,2709.7
+13,Galicia (GA),2020,2552.1
+14,"Madrid, Comunidad de (MD)",2020,1863.5
+15,"Murcia, Región de (MC)",2020,2770.9
+16,"Navarra, C. Foral de (NC)",2020,3144.9
+17,País Vasco (PV),2020,2728.1
+18,La Rioja (RI),2020,2863.5
+19,Ceuta (CE),2020,2297.6
+20,Melilla (ML),2020,2077.5
+1,España (ES),2019,3019.64
+2,Andalucía (AN),2019,3404.92
+3,Aragón (AR),2019,2948.34
+4,"Asturias, Principado de (AS)",2019,3021.6
+5,"Balears, Illes (IB)",2019,4348.78
+6,Canarias (CN),2019,2876.33
+7,Cantabria (CB),2019,2799.62
+8,Castilla y León (CL),2019,2975.86
+9,Castilla - La Mancha (CM),2019,3659.36
+10,Cataluña (CT),2019,2892.07
+11,Comunitat Valenciana (VC),2019,2824.84
+12,Extremadura (EX),2019,3165.91
+13,Galicia (GA),2019,3158.48
+14,"Madrid, Comunidad de (MD)",2019,2437.12
+15,"Murcia, Región de (MC)",2019,3073.29
+16,"Navarra, C. Foral de (NC)",2019,3766.34
+17,País Vasco (PV),2019,3252.97
+18,La Rioja (RI),2019,3397.21
+19,Ceuta (CE),2019,2412.86
+20,Melilla (ML),2019,2618.5
+1,España (ES),2022,2950.74
+2,Andalucía (AN),2022,3035.92
+3,Aragón (AR),2022,2983.74
+4,"Asturias, Principado de (AS)",2022,3553.02
+5,"Balears, Illes (IB)",2022,4893.24
+6,Canarias (CN),2022,2715.65
+7,Cantabria (CB),2022,4226.25
+8,Castilla y León (CL),2022,2820.99
+9,Castilla - La Mancha (CM),2022,4053.51
+10,Cataluña (CT),2022,2885.34
+11,Comunitat Valenciana (VC),2022,2757.08
+12,Extremadura (EX),2022,3022.62
+13,Galicia (GA),2022,2774.42
+14,"Madrid, Comunidad de (MD)",2022,2286.45
+15,"Murcia, Región de (MC)",2022,3146.65
+16,"Navarra, C. Foral de (NC)",2022,3766.14
+17,País Vasco (PV),2022,3133.9
+18,La Rioja (RI),2022,4247.9
+19,Ceuta (CE),2022,2683.83
+20,Melilla (ML),2022,2978.94
+1,España (ES),2018,3408.7
+2,Andalucía (AN),2018,3837.96
+3,Aragón (AR),2018,3303.32
+4,"Asturias, Principado de (AS)",2018,3444.52
+5,"Balears, Illes (IB)",2018,4996.33
+6,Canarias (CN),2018,3530.63
+7,Cantabria (CB),2018,3078.63
+8,Castilla y León (CL),2018,3392.0
+9,Castilla - La Mancha (CM),2018,4083.85
+10,Cataluña (CT),2018,3313.41
+11,Comunitat Valenciana (VC),2018,3171.32
+12,Extremadura (EX),2018,3803.99
+13,Galicia (GA),2018,3514.05
+14,"Madrid, Comunidad de (MD)",2018,2784.15
+15,"Murcia, Región de (MC)",2018,3514.41
+16,"Navarra, C. Foral de (NC)",2018,3746.58
+17,País Vasco (PV),2018,3390.18
+18,La Rioja (RI),2018,3619.87
+19,Ceuta (CE),2018,2865.16
+20,Melilla (ML),2018,3625.63
