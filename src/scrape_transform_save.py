@@ -333,62 +333,28 @@ def create_df(df):
     df_new.insert(0, 'id', df_new['Region'].map(comunidades_dict))
            
     return df_new
-
-def process_excel_files(Source_folder):
-    
-    # Itera sobre todos los archivos en el directorio especificado
+            
+def process_excel_files(Source_folder,Destination_folder):
+    '''
+    Comentario    
+    '''
     for filename in os.listdir(Source_folder):
         
-        # Comprueba si el archivo es un archivo de Excel 
-        if filename.endswith(".xls") or filename.endswith(".xlsx"): 
+        if filename.endswith(".xls"): 
             
-            #Si falla al aplicar funciones a todos los xls que no pare y me diga cuales fallaron
-            try:
-                # Carga el archivo de Excel como un df
+            try: 
+   
                 df = pd.read_excel(os.path.join(Source_folder, filename))
-                
-                # app funciones
                 df = clean_columns(df)
+                df = df[df['Region'].notna()]
                 df = create_df(df)
-                
-                # Optimizar
-                df = df.apply(pd.to_numeric, errors='ignore')
-                df = df.apply(pd.to_numeric, downcast='integer', errors='ignore')
-                
-                # Guarda como csv
-                # El nombre del archivo será el mismo que el del archivo de Excel, pero con la extensión .csv
-                df.to_csv(os.path.join(Source_folder, os.path.splitext(filename)[0] + '.csv'), index=False)
-            except Exception as e:
-                print(f"Error al procesar el archivo {filename}: {e}")
-                continue
-            
-
-def process_excel_files_test(Source_folder,Destination_folder):
-    
-    for filename in os.listdir(Source_folder):
-        
-        if filename.endswith(".xls") or filename.endswith(".xlsx"): 
-            
-            try:
-
-                df = pd.read_excel(os.path.join(Source_folder, filename))
-                
-                if 'id' in df.columns and df['id'].dtype != 'int64':
-                    df = df.dropna(subset=['Region'])
-                    
-                    df['id'] = pd.to_numeric(df['id'], errors='coerce', downcast='integer')
-                    
-                    if 'id' in df.columns and df['id'].dtype != 'int64':
-                        print(f"La columna 'id' en el archivo {filename} no se pudo convertir a tipo int.")
-                    
-                df = clean_columns(df)
-                df = create_df(df)
-                
-                df = df.apply(pd.to_numeric, errors='ignore')
+                df['id'] = pd.to_numeric(df['id'], errors='coerce').astype('Int64')
                 df = df.apply(pd.to_numeric, downcast='integer', errors='ignore')
                 
                 df.to_csv(os.path.join(Destination_folder, os.path.splitext(filename)[0] + '.csv'), index=False)
                 
             except Exception as e:
+                
                 print(f"Error al procesar el archivo {filename}: {e}")
-                continue
+            
+        continue

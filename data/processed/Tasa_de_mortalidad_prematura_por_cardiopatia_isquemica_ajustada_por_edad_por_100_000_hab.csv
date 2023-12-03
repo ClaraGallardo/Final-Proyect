@@ -1,24 +1,4 @@
 id,Region,Año,Hombre,Mujer,Total
-1,España (ES),2021,35.57,8.16,20.25
-2,Andalucía (AN),2021,40.94,10.63,25.25
-3,Aragón (AR),2021,28.69,5.64,16.95
-4,"Asturias, Principado de (AS)",2021,40.22,10.82,24.8
-5,"Balears, Illes (IB)",2021,25.3,5.66,15.25
-6,Canarias (CN),2021,47.34,15.1,30.9
-7,Cantabria (CB),2021,24.29,4.01,13.76
-8,Castilla y León (CL),2021,34.85,7.26,21.06
-9,Castilla - La Mancha (CM),2021,33.89,7.33,20.61
-10,Cataluña (CT),2021,28.64,5.61,16.61
-11,Comunitat Valenciana (VC),2021,43.99,9.44,26.05
-12,Extremadura (EX),2021,37.89,8.41,23.1
-13,Galicia (GA),2021,36.1,9.28,22.15
-14,"Madrid, Comunidad de (MD)",2021,26.74,5.83,15.5
-15,"Murcia, Región de (MC)",2021,36.64,8.21,22.05
-16,"Navarra, C. Foral de (NC)",2021,29.21,4.85,16.81
-17,País Vasco (PV),2021,29.12,6.07,17.13
-18,La Rioja (RI),2021,43.85,7.78,25.65
-19,Ceuta (CE),2021,53.55,10.54,32.43
-20,Melilla (ML),2021,55.59,21.47,38.82
 1,España (ES),2019,34.51,7.77,20.62
 2,Andalucía (AN),2019,40.78,10.37,25.0
 3,Aragón (AR),2019,30.52,6.44,18.23
@@ -99,3 +79,23 @@ id,Region,Año,Hombre,Mujer,Total
 18,La Rioja (RI),2020,42.56,8.18,25.26
 19,Ceuta (CE),2020,65.05,28.65,47.14
 20,Melilla (ML),2020,45.38,25.68,35.66
+1,España (ES),2021,35.57,8.16,20.25
+2,Andalucía (AN),2021,40.94,10.63,25.25
+3,Aragón (AR),2021,28.69,5.64,16.95
+4,"Asturias, Principado de (AS)",2021,40.22,10.82,24.8
+5,"Balears, Illes (IB)",2021,25.3,5.66,15.25
+6,Canarias (CN),2021,47.34,15.1,30.9
+7,Cantabria (CB),2021,24.29,4.01,13.76
+8,Castilla y León (CL),2021,34.85,7.26,21.06
+9,Castilla - La Mancha (CM),2021,33.89,7.33,20.61
+10,Cataluña (CT),2021,28.64,5.61,16.61
+11,Comunitat Valenciana (VC),2021,43.99,9.44,26.05
+12,Extremadura (EX),2021,37.89,8.41,23.1
+13,Galicia (GA),2021,36.1,9.28,22.15
+14,"Madrid, Comunidad de (MD)",2021,26.74,5.83,15.5
+15,"Murcia, Región de (MC)",2021,36.64,8.21,22.05
+16,"Navarra, C. Foral de (NC)",2021,29.21,4.85,16.81
+17,País Vasco (PV),2021,29.12,6.07,17.13
+18,La Rioja (RI),2021,43.85,7.78,25.65
+19,Ceuta (CE),2021,53.55,10.54,32.43
+20,Melilla (ML),2021,55.59,21.47,38.82
