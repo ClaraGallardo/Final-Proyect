@@ -70,4 +70,4 @@ def add_table_test(file,key_type,database,password,folder):
             
         with engine.connect() as con:
             con.execute(text(f'ALTER TABLE `{file}` ADD FOREIGN KEY (`id`) REFERENCES `id`(`id`)'))
-        print(f"The table {file} has been successfully loaded into SQL with the associated {key_type} key.")  
+        print(f"The table {file} has been successfully loaded into SQL with the associated {key_type} key.") 
