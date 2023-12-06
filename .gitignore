@@ -163,3 +163,4 @@ drive/
 .vscode/
 __init__.py
 password.txt
+config/

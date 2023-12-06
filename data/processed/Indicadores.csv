@@ -1,71 +1,71 @@
-Indicadores_ID,Indicadores,Categoría_ID
-1,Años de vida saludable al nacer,1
-2,Años de vida saludable a los 65 años,1
-3,Consumo diario de frutas yo verduras en adultos,4
-4,Consumo diario de frutas yo verduras en jovenes,4
-5,Consumo intensivo de alcohol al menos una vez al mes en los ultimos 12 meses en jovenes,4
-6,Deterioro cognitivo en 65 y mas años,4
-7,Dificultad para la movilidad en 65 y mas años,4
-8,Esperanza de vida al nacer,1
-9,Esperanza de vida a los 65 años,1
-10,Incidencia de accidentes de trabajo,2
-11,Incidencia de nuevos diagnosticos de VIH,2
-12,Incidencia de tuberculosis por 100 000 hab,2
-13,Indice de calidad de vida infantil relacionada con la salud,1
-14,Indice de dependencia,4
-15,Indice de dependencia en 65 y mas años,4
-16,Indice de dependencia juvenil,4
-17,Ingresos medios por persona euros,4
-18,Limitacion para la realizacion de actividades relacionadas con el hogar en 65 y mas años,4
-19,Numero de victimas mortales de accidentes de trafico,3
-20,Numero de victimas no mortales de accidente de trafico,3
-21,Porcentaje de bebedores de riesgo de alcohol,4
-22,Porcentaje de consumidores de cannabis en escolares adolescentes de 14 a 18 años,4
-23,Porcentaje de la poblacion que declara escasez de zonas verdes en el entorno de su vivienda,4
-24,Porcentaje de la poblacion que declara que el ruido procedente del exterior de su vivienda es molesto,4
-25,Porcentaje de poblacion adulta en riesgo de mala salud mental,4
-26,Porcentaje de poblacion con valoracion positiva de su estado de salud,4
-27,Porcentaje de poblacion de 65 años y mas años con valoracion positiva de su estado de salud,4
-28,Porcentaje de poblacion de clase social baja,4
-29,Porcentaje de poblacion que recibe suministro con Cobertura del Sistema Nacional de Aguas de Consumo,4
-30,Porcentaje de recien nacidos a termino con bajo peso,2
-31,Prevalencia de consumo de tabaco en poblacion adulta,4
-32,Prevalencia de consumo diario de tabaco en jovenes,4
-33,Prevalencia de obesidad en poblacion de 18 y mas años,4
-34,Prevalencia de obesidad en poblacion infantil,4
-35,Prevalencia de sedentarismo en jovenes,4
-36,Prevalencia de sedentarismo en poblacion adulta,4
-37,Prevalencia registrada de cardiopatia isquemica en poblacion de 40 y mas años,2
-38,Prevalencia registrada de diabetes mellitus en poblacion general,2
-39,Prevalencia registrada de EPOC en poblacion de 40 y mas años,2
-40,Prevalencia registrada de hipertension arterial en poblacion general,2
-41,Prevalencia registrada de sindromes dolorosos de columna vertebral en poblacion general,2
-42,Prevalencia registrada de trastornos mentales en poblacion general,2
-43,Proporcion de poblacion de 25 a 64 años con nivel de estudios de 1 Etapa de educacion secundaria o inferior,4
-44,Tasa ajustada de hospitalizacion por asma por 10 000 hab,2
-45,Tasa ajustada de hospitalizacion por diabetes mellitus por 10 000 hab,2
-46,Tasa ajustada de hospitalizacion por enfermedades cerebrovasculares por 10 000 hab,2
-47,Tasa ajustada de hospitalizacion por enfermedad hipertensiva por 10 000 hab,2
-48,Tasa ajustada de hospitalizacion por EPOC por 10 000 hab,2
-49,Tasa ajustada de hospitalizacion por infarto agudo de miocardio por 10 000 hab,2
-50,Tasa ajustada de hospitalizacion por Insuficiencia cardiaca congestiva por 10 000 hab,2
-51,Tasa bruta de hospitalizacion por enfermedades cerebrovasculares por 10 000 hab,3
-52,Tasa bruta de hospitalizacion por infarto agudo de miocardio por 10 000 hab,3
-53,Tasa de desempleo en menores de 25 años,4
-54,Tasa de desempleo total,4
-55,Tasa de mortalidad ajustada por edad por cancer por 100 000 hab,3
-56,Tasa de mortalidad ajustada por edad por cardiopatia isquemica por 100 000 hab,3
-57,Tasa de mortalidad ajustada por edad por diabetes mellitus por 100 000 hab,3
-58,Tasa de mortalidad ajustada por edad por enfermedad cerebrovascular por 100 000 hab,3
-59,Tasa de mortalidad ajustada por edad por enfermedad cronica del higado por 100 000 hab,3
-60,Tasa de mortalidad ajustada por edad por enfermedad pulmonar obstructiva cronica por 100 000 hab,3
-61,Tasa de mortalidad ajustada por edad por neumonia e influenza por 100 000 hab,3
-62,Tasa de mortalidad ajustada por edad por suicidio por 100 000 hab,3
-63,Tasa de mortalidad infantil por 1000 nacidos vivos,3
-64,Tasa de mortalidad prematura por cancer ajustada por edad por 100 000 hab,3
-65,Tasa de mortalidad prematura por cardiopatia isquemica ajustada por edad por 100 000 hab,3
-66,Tasa de mortalidad prematura por diabetes mellitus ajustada por edad por 100 000 hab,3
-67,Tasa de mortalidad prematura por enfermedad vascular cerebral ajustada por edad por 100 000 hab,3
-68,Tasa de mortalidad prematura por EPOC ajustada por edad por 100 000 hab,3
-69,Tasa de natalidad por 1000 habitantes,3
-70,Tasa de riesgo de pobreza indicador AROPE,4
+Indicadores_ID,Indicadores,Categoría_ID,Tipo de indicador
+1,Años de vida saludable al nacer,1,Sin tipo
+2,Años de vida saludable a los 65 años,1,Sin tipo
+3,Consumo diario de frutas yo verduras en adultos,4,Sin tipo
+4,Consumo diario de frutas yo verduras en jovenes,4,Sin tipo
+5,Consumo intensivo de alcohol al menos una vez al mes en los ultimos 12 meses en jovenes,4,Hepática
+6,Deterioro cognitivo en 65 y mas años,4,Sin tipo
+7,Dificultad para la movilidad en 65 y mas años,4,Sin tipo
+8,Esperanza de vida al nacer,1,Sin tipo
+9,Esperanza de vida a los 65 años,1,Sin tipo
+10,Incidencia de accidentes de trabajo,2,Sin tipo
+11,Incidencia de nuevos diagnosticos de VIH,2,Sin tipo
+12,Incidencia de tuberculosis por 100 000 hab,2,Pulmonar
+13,Indice de calidad de vida infantil relacionada con la salud,1,Sin tipo
+14,Indice de dependencia,4,Sin tipo
+15,Indice de dependencia en 65 y mas años,4,Sin tipo
+16,Indice de dependencia juvenil,4,Sin tipo
+17,Ingresos medios por persona euros,4,Sin tipo
+18,Limitacion para la realizacion de actividades relacionadas con el hogar en 65 y mas años,4,Sin tipo
+19,Numero de victimas mortales de accidentes de trafico,3,Sin tipo
+20,Numero de victimas no mortales de accidente de trafico,3,Sin tipo
+21,Porcentaje de bebedores de riesgo de alcohol,4,Hepática
+22,Porcentaje de consumidores de cannabis en escolares adolescentes de 14 a 18 años,4,Hepática
+23,Porcentaje de la poblacion que declara escasez de zonas verdes en el entorno de su vivienda,4,Sin tipo
+24,Porcentaje de la poblacion que declara que el ruido procedente del exterior de su vivienda es molesto,4,Sin tipo
+25,Porcentaje de poblacion adulta en riesgo de mala salud mental,4,Mental
+26,Porcentaje de poblacion con valoracion positiva de su estado de salud,4,Sin tipo
+27,Porcentaje de poblacion de 65 años y mas años con valoracion positiva de su estado de salud,4,Sin tipo
+28,Porcentaje de poblacion de clase social baja,4,Sin tipo
+29,Porcentaje de poblacion que recibe suministro con Cobertura del Sistema Nacional de Aguas de Consumo,4,Sin tipo
+30,Porcentaje de recien nacidos a termino con bajo peso,2,Sin tipo
+31,Prevalencia de consumo de tabaco en poblacion adulta,4,Pulmonar
+32,Prevalencia de consumo diario de tabaco en jovenes,4,Pulmonar
+33,Prevalencia de obesidad en poblacion de 18 y mas años,4,Sin tipo
+34,Prevalencia de obesidad en poblacion infantil,4,Sin tipo
+35,Prevalencia de sedentarismo en jovenes,4,Sin tipo
+36,Prevalencia de sedentarismo en poblacion adulta,4,Sin tipo
+37,Prevalencia registrada de cardiopatia isquemica en poblacion de 40 y mas años,2,Cardiaca
+38,Prevalencia registrada de diabetes mellitus en poblacion general,2,Diabetes
+39,Prevalencia registrada de EPOC en poblacion de 40 y mas años,2,Pulmonar
+40,Prevalencia registrada de hipertension arterial en poblacion general,2,Cardiaca
+41,Prevalencia registrada de sindromes dolorosos de columna vertebral en poblacion general,2,Sin tipo
+42,Prevalencia registrada de trastornos mentales en poblacion general,2,Sin tipo
+43,Proporcion de poblacion de 25 a 64 años con nivel de estudios de 1 Etapa de educacion secundaria o inferior,4,Sin tipo
+44,Tasa ajustada de hospitalizacion por asma por 10 000 hab,2,Pulmonar
+45,Tasa ajustada de hospitalizacion por diabetes mellitus por 10 000 hab,2,Diabetes
+46,Tasa ajustada de hospitalizacion por enfermedades cerebrovasculares por 10 000 hab,2,Cerebral
+47,Tasa ajustada de hospitalizacion por enfermedad hipertensiva por 10 000 hab,2,Cardiaca
+48,Tasa ajustada de hospitalizacion por EPOC por 10 000 hab,2,Pulmonar
+49,Tasa ajustada de hospitalizacion por infarto agudo de miocardio por 10 000 hab,2,Cardiaca
+50,Tasa ajustada de hospitalizacion por Insuficiencia cardiaca congestiva por 10 000 hab,2,Cardiaca
+51,Tasa bruta de hospitalizacion por enfermedades cerebrovasculares por 10 000 hab,3,Cerebral
+52,Tasa bruta de hospitalizacion por infarto agudo de miocardio por 10 000 hab,3,Cardiaca
+53,Tasa de desempleo en menores de 25 años,4,Sin tipo
+54,Tasa de desempleo total,4,Sin tipo
+55,Tasa de mortalidad ajustada por edad por cancer por 100 000 hab,3,Cáncer
+56,Tasa de mortalidad ajustada por edad por cardiopatia isquemica por 100 000 hab,3,Cardiaca
+57,Tasa de mortalidad ajustada por edad por diabetes mellitus por 100 000 hab,3,Diabetes
+58,Tasa de mortalidad ajustada por edad por enfermedad cerebrovascular por 100 000 hab,3,Cerebral
+59,Tasa de mortalidad ajustada por edad por enfermedad cronica del higado por 100 000 hab,3,Hepática
+60,Tasa de mortalidad ajustada por edad por enfermedad pulmonar obstructiva cronica por 100 000 hab,3,Pulmonar
+61,Tasa de mortalidad ajustada por edad por neumonia e influenza por 100 000 hab,3,Pulmonar
+62,Tasa de mortalidad ajustada por edad por suicidio por 100 000 hab,3,Mental
+63,Tasa de mortalidad infantil por 1000 nacidos vivos,3,Sin tipo
+64,Tasa de mortalidad prematura por cancer ajustada por edad por 100 000 hab,3,Cáncer
+65,Tasa de mortalidad prematura por cardiopatia isquemica ajustada por edad por 100 000 hab,3,Cardiaca
+66,Tasa de mortalidad prematura por diabetes mellitus ajustada por edad por 100 000 hab,3,Diabetes
+67,Tasa de mortalidad prematura por enfermedad vascular cerebral ajustada por edad por 100 000 hab,3,Sin tipo
+68,Tasa de mortalidad prematura por EPOC ajustada por edad por 100 000 hab,3,Pulmonar
+69,Tasa de natalidad por 1000 habitantes,3,Sin tipo
+70,Tasa de riesgo de pobreza indicador AROPE,4,Sin tipo
