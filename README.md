@@ -1,141 +1,103 @@
 ![Vista previa del proyecto](https://github.com/ClaraGallardo/Final-Proyect/blob/main/image/_e892beb1-ce74-4650-a16d-0ebd744866fd.jpeg)
 
-1. Descarga de datos https://inclasns.sanidad.gob.es/main.html'  🆗
-2. Obtengo excel y muevo de descargas a data 🆗
-3. Estudio excel  y limpieza. 🆗
 
-Creaciónd e funciones para limpiar todos los xls de golpe.
+# INDISALUD⚕️
 
-df1 = df1.drop(df1.tail(3).index) # BORRAR LAS TRES ULTIMAS FILAS , OLO TODOS LO TIENEN ¡¡
-dato esta en df.iloc[3:, 1:]
+Este repositorio se centra en la recopilación, análisis y visualización de indicadores de salud clave para proporcionar una comprensión integral del estado de salud de una población. Los indicadores de salud son medidas cuantificables que nos permiten evaluar y monitorear diversos aspectos de la salud pública, desde tasas de enfermedades específicas hasta factores determinantes del bienestar.
 
-quitar froze list = df.reset_index()
+El objetivo principal de este proyecto es proporcionar a los usuarios una herramienta eficaz para interpretar y comunicar datos de salud de manera clara y accesible. Ya sea que seas un profesional de la salud, un investigador, o simplemente alguien interesado en comprender las tendencias y desafíos en el ámbito de la salud, este repositorio te brindará las herramientas necesarias para explorar, analizar y sacar conclusiones a partir de los indicadores de salud proporcionados.
 
-subcolumnas=test.index.names
+A través de visualizaciones interactivas, análisis detallados y documentación clara, esperamos que este proyecto contribuya significativamente a la comprensión y mejora de la salud pública. ¡Explora, contribuye y únete a nosotros en este esfuerzo por hacer que la información de salud sea más accesible y valiosa para todos!
 
-- Comprobamos si el dataframe tiene subcolumnas
+## Procedimiento ⚒️:
 
-if len(subcolumnas) >0:
+1. Extracción con Selenium:
+2. 
+Utilizando Selenium, se automatiza la navegación a través de la interfaz web del sitio para acceder a las secciones relevantes que contienen la información de interés.
 
-  print("El dataframe tiene subcolumnas") # para hacer la funcion de limpieza, añadir df.reset_index()
+3. Descarga de Archivos Excel:
 
-else:
+Se identifican los enlaces o botones que permiten la descarga de archivos Excel desde el sitio web. Selenium se utiliza para simular las interacciones necesarias (clics, formularios, etc.) que activan las descargas de archivos.
 
-  print("El dataframe no tiene subcolumnas")
+3. Almacenamiento Local:
 
-- Ojo todo es objeto hay que cambiarlo a numérico
-- Incidencia de tuberculosis por 100 000 hab. no sale bien este tipo de tablas (REGION,AÑOS,TOTAL)
+Los archivos Excel descargados se almacenan localmente en el sistema de archivos para su posterior procesamiento.
 
-Añadir a tablas id por comunidad y crear tabla con id
+4. Transformación de Datos:
 
----
+Se utiliza una biblioteca de manipulación de datos, como pandas en Python, para cargar y transformar los datos de los archivos Excel según sea necesario además de la creación de funciones específicas para los procesos. Esto puede incluir la limpieza de datos, la conversión de formatos y la selección de columnas relevantes.
 
-LUNES: tenemos que agrupar las tablas para no tener tantas:
+5. Creación de la Base de Datos SQL:
 
-Creamos 5 categorías principales,dentro de cada categoría irán parámetros. Las categorías serán:
+Se emplea SQL para crear una base de datos que refleje la estructura deseada para los datos extraídos. Se definen tablas que representan las entidades y relaciones relevantes.
+
+6. Carga de Datos en la Base de Datos:
+
+Utilizando comandos SQL o herramientas específicas desde Python, se cargan los datos transformados desde los archivos Excel en la base de datos SQL recién creada. Esto implica la inserción de registros en las tablas correspondientes.
+
+
+Este proceso automatizado garantiza la obtención eficiente y precisa de los datos del sitio web(https://inclasns.sanidad.gob.es/main.html), seguido de su preparación y almacenamiento en una base de datos SQL, lo que facilita su análisis y consulta posterior.
+
+## EDA:
+
+Se realiza un analisis exploratorio de los datos oara comprender y explorar la naturaleza d elos datos recopilados.
+Al trabajar con muhcas variables se decide agruparlas para un mejor manejo y estudio posterior. Las categorías o grupos son:
 
 1. Esperanza de vida
 2. Morbilidad
 3. Mortalidad
 4. Estilo de vida
 5. Region
+   
 
-Al final quedarán 
-
-lo haremos así:
-
-4. CREAR SQL:
-
-Automatizar proceso 🤔
-
-- Columna id en algunas tablas como float ojo si no tienen el mismo formato te tira para atras
-- subir primero tabla id para que se creen las primary key, si no, las foreign dan error al no tener columna de referencia
-
-DREAMLIT :
-
-- Intertar crear un chat para interactuar con los filtros, ej: dime donde se produjeron el mayor numero de accidentes de tráfico.
-
-ESTRUCTURA CARPETAS:
+## Estructura de repositorio 📂:
 
 proyecto/
 │
 ├── data/                  # Carpeta para almacenar los datos
 │   ├── raw/               # Datos sin procesar
 │   ├── processed/         # Datos procesados
-│   └── external/          # Datos externos (si los hay)
+│ 
 │
 ├── notebooks/             # Jupyter notebooks
-│   ├── exploracion.ipynb  # Notebook de exploración de datos
-│   └── limpieza.ipynb     # Notebook de limpieza de datos
+│   
 │
 ├── scripts/               # Scripts de Python
-│   ├── extraccion.py      # Script para la extracción de datos
-│   ├── limpieza.py        # Script para la limpieza de datos
-│   ├── almacenamiento.py  # Script para el almacenamiento de datos
-│   ├── sql.py             # Script para la interacción con SQL
-│   └── visualizacion.py   # Script para la visualización de datos
-│
-├── app/                   # Código de la aplicación
-│   ├── main.py            # Script principal de Streamlit
-│   └── requirements.txt    # Archivo con las dependencias del proyecto
 │
 ├── tests/                 # Pruebas unitarias y de integración
 │   ├── test_extraccion.py # Pruebas para el módulo de extracción
 │   ├── test_limpieza.py   # Pruebas para el módulo de limpieza
 │   └── test_sql.py        # Pruebas para el módulo de SQL
 │
-├── config/                # Configuración del proyecto
-│   ├── config.yaml        # Archivo de configuración
-│   └── logging.conf       # Configuración del registro (logging)
-│
 ├── .gitignore             # Archivo de gitignore
 ├── README.md              # Documentación del proyecto
-├── requirements.txt       # Archivo con las dependencias del proyecto
 ├── LICENSE                # Licencia del proyecto
-└── .git/                  # Carpeta git (control de versiones)
 
-# Estructura del Proyecto
+Este repositorio sigue una estructura organizada para facilitar el desarrollo y la comprensión del proyecto.
 
-Este repositorio sigue una estructura organizada para facilitar el desarrollo y la comprensión del proyecto. A continuación, se describe la distribución de carpetas y archivos:
+## Técnologías usadas 👩‍💻:
 
-## Carpeta `data`
+Selenium:
 
-- **raw:** Contiene datos sin procesar.
-- **processed:** Almacena datos procesados.
-- **external:** Guarda datos externos (si los hay).
+Utilizado para la automatización de la navegación web y la interacción con la interfaz del sitio https://inclasns.sanidad.gob.es/main.html.
 
-## Carpeta `notebooks`
+Python:
 
-- **exploracion.ipynb:** Notebook de exploración de datos.
-- **limpieza.ipynb:** Notebook de limpieza de datos.
+Lenguaje de programación principal para la implementación de la automatización y la manipulación de datos.
 
-## Carpeta `scripts`
+pandas:
 
-- **extraccion.py:** Script para la extracción de datos.
-- **limpieza.py:** Script para la limpieza de datos.
-- **almacenamiento.py:** Script para el almacenamiento de datos.
-- **sql.py:** Script para la interacción con SQL.
-- **visualizacion.py:** Script para la visualización de datos.
+Biblioteca de Python utilizada para la manipulación y transformación eficiente de datos, especialmente en la fase de procesamiento de archivos Excel.
 
-## Carpeta `app`
+SQL:
 
-- **main.py:** Script principal de Streamlit.
-- **requirements.txt:** Archivo con las dependencias del proyecto.
+Lenguaje de consultas utilizado para la creación de la base de datos y la manipulación de datos almacenados.
+Herramientas de Desarrollo en Python:
 
-## Carpeta `tests`
+Editores de código, entornos virtuales y otras herramientas utilizadas para el desarrollo y ejecución del código Python.
+Gestor de Base de Datos SQL (MySQL Workbench):
 
-- **test_extraccion.py:** Pruebas para el módulo de extracción.
-- **test_limpieza.py:** Pruebas para el módulo de limpieza.
-- **test_sql.py:** Pruebas para el módulo de SQL.
+Utilizado para la creación de la base de datos y la gestión del almacenamiento y recuperación de datos.
+Sistema de Control de Versiones (GitHub):
 
-## Carpeta `config`
-
-- **config.yaml:** Archivo de configuración.
-- **logging.conf:** Configuración del registro (logging).
-
-## Otros Archivos y Carpetas
-
-- **.gitignore:** Archivo de gitignore.
-- **README.md:** Documentación del proyecto.
-- **requirements.txt:** Archivo con las dependencias del proyecto.
-- **LICENSE:** Licencia del proyecto
+Empleado para el seguimiento de cambios en el código fuente y la colaboración en el desarrollo del proyecto.
