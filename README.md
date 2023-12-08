@@ -52,26 +52,20 @@ Al trabajar con muhcas variables se decide agruparlas para un mejor manejo y est
 
 ## Estructura de repositorio 📂:
 
-proyecto/
-│
-├── data/                  # Carpeta para almacenar los datos
-│   ├── raw/               # Datos sin procesar
-│   ├── processed/         # Datos procesados
-│ 
-│
-├── notebooks/             # Jupyter notebooks
-│   
-│
-├── scripts/               # Scripts de Python
-│
-├── tests/                 # Pruebas unitarias y de integración
-│   ├── test_extraccion.py # Pruebas para el módulo de extracción
-│   ├── test_limpieza.py   # Pruebas para el módulo de limpieza
-│   └── test_sql.py        # Pruebas para el módulo de SQL
-│
-├── .gitignore             # Archivo de gitignore
-├── README.md              # Documentación del proyecto
-├── LICENSE                # Licencia del proyecto
+- data/                  # Carpeta para almacenar los datos
+-- raw/               # Datos sin procesar
+-- processed/         # Datos procesados
+
+ -notebooks/             # Jupyter notebooks
+
+ -scripts/               # Scripts de Python
+ -tests/                 # Pruebas unitarias y de integración
+ --test_extraccion.py # Pruebas para el módulo de extracción
+ --test_limpieza.py   # Pruebas para el módulo de limpieza
+ --test_sql.py        # Pruebas para el módulo de SQL
+ .gitignore             # Archivo de gitignore
+ README.md              # Documentación del proyecto
+ LICENSE                # Licencia del proyecto
 
 Este repositorio sigue una estructura organizada para facilitar el desarrollo y la comprensión del proyecto.
 
