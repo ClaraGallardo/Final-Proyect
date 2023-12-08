@@ -12,10 +12,10 @@ A través de visualizaciones interactivas, análisis detallados y documentación
 ## Procedimiento ⚒️:
 
 1. Extracción con Selenium:
-2. 
+
 Utilizando Selenium, se automatiza la navegación a través de la interfaz web del sitio para acceder a las secciones relevantes que contienen la información de interés.
 
-3. Descarga de Archivos Excel:
+2. Descarga de Archivos Excel:
 
 Se identifican los enlaces o botones que permiten la descarga de archivos Excel desde el sitio web. Selenium se utiliza para simular las interacciones necesarias (clics, formularios, etc.) que activan las descargas de archivos.
 
